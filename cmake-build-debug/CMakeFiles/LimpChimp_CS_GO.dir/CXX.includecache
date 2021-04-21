@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/library.cpp
+library.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/library.h
+iostream
+-
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/library.h
+

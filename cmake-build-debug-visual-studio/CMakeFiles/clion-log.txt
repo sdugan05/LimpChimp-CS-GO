@@ -1,0 +1,4 @@
+C:\Users\Saul\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\Saul\Projects\LX\LimpChimp-CS-GO
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio
