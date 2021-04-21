@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/DllMain.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/DllMain.cpp.obj"
+  "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Hooks.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

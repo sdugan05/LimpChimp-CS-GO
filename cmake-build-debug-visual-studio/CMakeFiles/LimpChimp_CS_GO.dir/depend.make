@@ -3,4 +3,12 @@
 
 CMakeFiles\LimpChimp_CS_GO.dir\DllMain.cpp.obj: ..\DllMain.cpp
 CMakeFiles\LimpChimp_CS_GO.dir\DllMain.cpp.obj: ..\DllMain.h
+CMakeFiles\LimpChimp_CS_GO.dir\DllMain.cpp.obj: ..\Hooks.h
+CMakeFiles\LimpChimp_CS_GO.dir\DllMain.cpp.obj: ..\Hooks\MinHook.h
+CMakeFiles\LimpChimp_CS_GO.dir\DllMain.cpp.obj: ..\SDK\Platform.h
+
+CMakeFiles\LimpChimp_CS_GO.dir\Hooks.cpp.obj: ..\Hooks.cpp
+CMakeFiles\LimpChimp_CS_GO.dir\Hooks.cpp.obj: ..\Hooks.h
+CMakeFiles\LimpChimp_CS_GO.dir\Hooks.cpp.obj: ..\Hooks\MinHook.h
+CMakeFiles\LimpChimp_CS_GO.dir\Hooks.cpp.obj: ..\SDK\Platform.h
 

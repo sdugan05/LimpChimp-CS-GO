@@ -3,4 +3,4 @@ project(LimpChimp_CS_GO)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(LimpChimp_CS_GO SHARED DllMain.cpp DllMain.h)
+add_library(LimpChimp_CS_GO SHARED DllMain.cpp DllMain.h Hooks.cpp Hooks.h)

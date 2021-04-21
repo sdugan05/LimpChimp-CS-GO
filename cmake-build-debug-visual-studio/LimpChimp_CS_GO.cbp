@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/DllMain.h">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

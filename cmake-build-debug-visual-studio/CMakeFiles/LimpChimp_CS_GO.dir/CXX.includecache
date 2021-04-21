@@ -15,4 +15,26 @@ iostream
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/DllMain.h
 Windows.h
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Windows.h
+Hooks.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.h
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.cpp
+Hooks.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.h
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.h
+Windows.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Windows.h
+Hooks/MinHook.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks/MinHook.h
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks/MinHook.h
+cstddef
+-
+memory
+-
+../SDK/Platform.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/SDK/Platform.h
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/SDK/Platform.h
 

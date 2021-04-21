@@ -153,6 +153,33 @@ DllMain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\DllMain.cpp.s
 .PHONY : DllMain.cpp.s
 
+Hooks.obj: Hooks.cpp.obj
+
+.PHONY : Hooks.obj
+
+# target to build an object file
+Hooks.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Hooks.cpp.obj
+.PHONY : Hooks.cpp.obj
+
+Hooks.i: Hooks.cpp.i
+
+.PHONY : Hooks.i
+
+# target to preprocess a source file
+Hooks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Hooks.cpp.i
+.PHONY : Hooks.cpp.i
+
+Hooks.s: Hooks.cpp.s
+
+.PHONY : Hooks.s
+
+# target to generate assembly for a file
+Hooks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Hooks.cpp.s
+.PHONY : Hooks.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -165,6 +192,9 @@ help:
 	@echo ... DllMain.obj
 	@echo ... DllMain.i
 	@echo ... DllMain.s
+	@echo ... Hooks.obj
+	@echo ... Hooks.i
+	@echo ... Hooks.s
 .PHONY : help
 
 
