@@ -34,6 +34,7 @@
 				<Option type="3"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
@@ -56,6 +57,7 @@
 				<Option type="3"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
@@ -82,16 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/DllMain.cpp">
-			<Option target="LimpChimp_CS_GO"/>
-		</Unit>
-		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/DllMain.h">
-			<Option target="LimpChimp_CS_GO"/>
-		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.cpp">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/LimpChimp.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/LimpChimp.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/process/process.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/process/process.hpp">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/CMakeLists.txt">

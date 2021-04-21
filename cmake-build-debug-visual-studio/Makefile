@@ -126,33 +126,6 @@ LimpChimp_CS_GO\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\build
 .PHONY : LimpChimp_CS_GO\fast
 
-DllMain.obj: DllMain.cpp.obj
-
-.PHONY : DllMain.obj
-
-# target to build an object file
-DllMain.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\DllMain.cpp.obj
-.PHONY : DllMain.cpp.obj
-
-DllMain.i: DllMain.cpp.i
-
-.PHONY : DllMain.i
-
-# target to preprocess a source file
-DllMain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\DllMain.cpp.i
-.PHONY : DllMain.cpp.i
-
-DllMain.s: DllMain.cpp.s
-
-.PHONY : DllMain.s
-
-# target to generate assembly for a file
-DllMain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\DllMain.cpp.s
-.PHONY : DllMain.cpp.s
-
 Hooks.obj: Hooks.cpp.obj
 
 .PHONY : Hooks.obj
@@ -180,6 +153,60 @@ Hooks.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Hooks.cpp.s
 .PHONY : Hooks.cpp.s
 
+LimpChimp.obj: LimpChimp.cpp.obj
+
+.PHONY : LimpChimp.obj
+
+# target to build an object file
+LimpChimp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\LimpChimp.cpp.obj
+.PHONY : LimpChimp.cpp.obj
+
+LimpChimp.i: LimpChimp.cpp.i
+
+.PHONY : LimpChimp.i
+
+# target to preprocess a source file
+LimpChimp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\LimpChimp.cpp.i
+.PHONY : LimpChimp.cpp.i
+
+LimpChimp.s: LimpChimp.cpp.s
+
+.PHONY : LimpChimp.s
+
+# target to generate assembly for a file
+LimpChimp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\LimpChimp.cpp.s
+.PHONY : LimpChimp.cpp.s
+
+process\process.obj: process\process.cpp.obj
+
+.PHONY : process\process.obj
+
+# target to build an object file
+process\process.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\process\process.cpp.obj
+.PHONY : process\process.cpp.obj
+
+process\process.i: process\process.cpp.i
+
+.PHONY : process\process.i
+
+# target to preprocess a source file
+process\process.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\process\process.cpp.i
+.PHONY : process\process.cpp.i
+
+process\process.s: process\process.cpp.s
+
+.PHONY : process\process.s
+
+# target to generate assembly for a file
+process\process.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\process\process.cpp.s
+.PHONY : process\process.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -189,12 +216,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LimpChimp_CS_GO
-	@echo ... DllMain.obj
-	@echo ... DllMain.i
-	@echo ... DllMain.s
 	@echo ... Hooks.obj
 	@echo ... Hooks.i
 	@echo ... Hooks.s
+	@echo ... LimpChimp.obj
+	@echo ... LimpChimp.i
+	@echo ... LimpChimp.s
+	@echo ... process/process.obj
+	@echo ... process/process.i
+	@echo ... process/process.s
 .PHONY : help
 
 

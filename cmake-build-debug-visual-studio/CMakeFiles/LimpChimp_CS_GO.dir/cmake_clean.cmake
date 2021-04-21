@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LimpChimp_CS_GO.dir/DllMain.cpp.obj"
   "CMakeFiles/LimpChimp_CS_GO.dir/Hooks.cpp.obj"
+  "CMakeFiles/LimpChimp_CS_GO.dir/LimpChimp.cpp.obj"
+  "CMakeFiles/LimpChimp_CS_GO.dir/process/process.cpp.obj"
   "LimpChimp_CS_GO.dll"
   "LimpChimp_CS_GO.dll.manifest"
   "LimpChimp_CS_GO.lib"

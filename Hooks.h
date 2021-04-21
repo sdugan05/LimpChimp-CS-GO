@@ -6,7 +6,9 @@
 #define LIMPCHIMP_CS_GO_HOOKS_H
 
 #include "Windows.h"
-#include "Hooks/MinHook.h"
+
+#include <d3d9.h>
+#include <memory>
 
 class Hooks {
 
@@ -14,6 +16,8 @@ public:
     Hooks(HMODULE moduleHandle);
 
     void initialize();
+
+    void findModules();
 
 
     HMODULE moduleHandle;
