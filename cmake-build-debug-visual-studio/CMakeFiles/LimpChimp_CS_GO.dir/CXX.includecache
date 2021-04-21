@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
+
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.cpp
 ios
 -
@@ -25,6 +27,8 @@ imgui/imgui_impl_win32.h
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_win32.h
 process/process.hpp
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/process/process.hpp
+Gui.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
 
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.h
 Windows.h

@@ -56,6 +56,7 @@ public:
 	std::array<DWORD, 2> csgo = { NULL, NULL };
 	std::array<DWORD, 2> engine = { NULL, NULL };
 	std::array<DWORD, 2> client = { NULL, NULL };
+    std::array<DWORD, 2> game_overlay_renderer = { NULL, NULL };
 };
 
 inline std::unique_ptr<Process> process = std::make_unique<Process>();

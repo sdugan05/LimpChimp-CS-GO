@@ -31,6 +31,7 @@ auto Process::detach() -> void
     csgo = { NULL, NULL };
     engine = { NULL, NULL };
     client = { NULL, NULL };
+    game_overlay_renderer = { NULL, NULL };
 }
 
 auto Process::write(DWORD dw_address, LPCVOID lpc_buffer, DWORD dw_size) -> bool

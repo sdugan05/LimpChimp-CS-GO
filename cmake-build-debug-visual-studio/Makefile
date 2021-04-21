@@ -126,6 +126,33 @@ LimpChimp_CS_GO\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\build
 .PHONY : LimpChimp_CS_GO\fast
 
+Gui.obj: Gui.cpp.obj
+
+.PHONY : Gui.obj
+
+# target to build an object file
+Gui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.obj
+.PHONY : Gui.cpp.obj
+
+Gui.i: Gui.cpp.i
+
+.PHONY : Gui.i
+
+# target to preprocess a source file
+Gui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.i
+.PHONY : Gui.cpp.i
+
+Gui.s: Gui.cpp.s
+
+.PHONY : Gui.s
+
+# target to generate assembly for a file
+Gui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.s
+.PHONY : Gui.cpp.s
+
 Hooks.obj: Hooks.cpp.obj
 
 .PHONY : Hooks.obj
@@ -180,6 +207,627 @@ LimpChimp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\LimpChimp.cpp.s
 .PHONY : LimpChimp.cpp.s
 
+freetype\src\autofit\autofit.obj: freetype\src\autofit\autofit.c.obj
+
+.PHONY : freetype\src\autofit\autofit.obj
+
+# target to build an object file
+freetype\src\autofit\autofit.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\autofit\autofit.c.obj
+.PHONY : freetype\src\autofit\autofit.c.obj
+
+freetype\src\autofit\autofit.i: freetype\src\autofit\autofit.c.i
+
+.PHONY : freetype\src\autofit\autofit.i
+
+# target to preprocess a source file
+freetype\src\autofit\autofit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\autofit\autofit.c.i
+.PHONY : freetype\src\autofit\autofit.c.i
+
+freetype\src\autofit\autofit.s: freetype\src\autofit\autofit.c.s
+
+.PHONY : freetype\src\autofit\autofit.s
+
+# target to generate assembly for a file
+freetype\src\autofit\autofit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\autofit\autofit.c.s
+.PHONY : freetype\src\autofit\autofit.c.s
+
+freetype\src\base\ftbase.obj: freetype\src\base\ftbase.c.obj
+
+.PHONY : freetype\src\base\ftbase.obj
+
+# target to build an object file
+freetype\src\base\ftbase.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftbase.c.obj
+.PHONY : freetype\src\base\ftbase.c.obj
+
+freetype\src\base\ftbase.i: freetype\src\base\ftbase.c.i
+
+.PHONY : freetype\src\base\ftbase.i
+
+# target to preprocess a source file
+freetype\src\base\ftbase.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftbase.c.i
+.PHONY : freetype\src\base\ftbase.c.i
+
+freetype\src\base\ftbase.s: freetype\src\base\ftbase.c.s
+
+.PHONY : freetype\src\base\ftbase.s
+
+# target to generate assembly for a file
+freetype\src\base\ftbase.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftbase.c.s
+.PHONY : freetype\src\base\ftbase.c.s
+
+freetype\src\base\ftbitmap.obj: freetype\src\base\ftbitmap.c.obj
+
+.PHONY : freetype\src\base\ftbitmap.obj
+
+# target to build an object file
+freetype\src\base\ftbitmap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftbitmap.c.obj
+.PHONY : freetype\src\base\ftbitmap.c.obj
+
+freetype\src\base\ftbitmap.i: freetype\src\base\ftbitmap.c.i
+
+.PHONY : freetype\src\base\ftbitmap.i
+
+# target to preprocess a source file
+freetype\src\base\ftbitmap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftbitmap.c.i
+.PHONY : freetype\src\base\ftbitmap.c.i
+
+freetype\src\base\ftbitmap.s: freetype\src\base\ftbitmap.c.s
+
+.PHONY : freetype\src\base\ftbitmap.s
+
+# target to generate assembly for a file
+freetype\src\base\ftbitmap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftbitmap.c.s
+.PHONY : freetype\src\base\ftbitmap.c.s
+
+freetype\src\base\ftdebug.obj: freetype\src\base\ftdebug.c.obj
+
+.PHONY : freetype\src\base\ftdebug.obj
+
+# target to build an object file
+freetype\src\base\ftdebug.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftdebug.c.obj
+.PHONY : freetype\src\base\ftdebug.c.obj
+
+freetype\src\base\ftdebug.i: freetype\src\base\ftdebug.c.i
+
+.PHONY : freetype\src\base\ftdebug.i
+
+# target to preprocess a source file
+freetype\src\base\ftdebug.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftdebug.c.i
+.PHONY : freetype\src\base\ftdebug.c.i
+
+freetype\src\base\ftdebug.s: freetype\src\base\ftdebug.c.s
+
+.PHONY : freetype\src\base\ftdebug.s
+
+# target to generate assembly for a file
+freetype\src\base\ftdebug.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftdebug.c.s
+.PHONY : freetype\src\base\ftdebug.c.s
+
+freetype\src\base\ftglyph.obj: freetype\src\base\ftglyph.c.obj
+
+.PHONY : freetype\src\base\ftglyph.obj
+
+# target to build an object file
+freetype\src\base\ftglyph.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftglyph.c.obj
+.PHONY : freetype\src\base\ftglyph.c.obj
+
+freetype\src\base\ftglyph.i: freetype\src\base\ftglyph.c.i
+
+.PHONY : freetype\src\base\ftglyph.i
+
+# target to preprocess a source file
+freetype\src\base\ftglyph.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftglyph.c.i
+.PHONY : freetype\src\base\ftglyph.c.i
+
+freetype\src\base\ftglyph.s: freetype\src\base\ftglyph.c.s
+
+.PHONY : freetype\src\base\ftglyph.s
+
+# target to generate assembly for a file
+freetype\src\base\ftglyph.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftglyph.c.s
+.PHONY : freetype\src\base\ftglyph.c.s
+
+freetype\src\base\ftinit.obj: freetype\src\base\ftinit.c.obj
+
+.PHONY : freetype\src\base\ftinit.obj
+
+# target to build an object file
+freetype\src\base\ftinit.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftinit.c.obj
+.PHONY : freetype\src\base\ftinit.c.obj
+
+freetype\src\base\ftinit.i: freetype\src\base\ftinit.c.i
+
+.PHONY : freetype\src\base\ftinit.i
+
+# target to preprocess a source file
+freetype\src\base\ftinit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftinit.c.i
+.PHONY : freetype\src\base\ftinit.c.i
+
+freetype\src\base\ftinit.s: freetype\src\base\ftinit.c.s
+
+.PHONY : freetype\src\base\ftinit.s
+
+# target to generate assembly for a file
+freetype\src\base\ftinit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftinit.c.s
+.PHONY : freetype\src\base\ftinit.c.s
+
+freetype\src\base\ftsynth.obj: freetype\src\base\ftsynth.c.obj
+
+.PHONY : freetype\src\base\ftsynth.obj
+
+# target to build an object file
+freetype\src\base\ftsynth.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftsynth.c.obj
+.PHONY : freetype\src\base\ftsynth.c.obj
+
+freetype\src\base\ftsynth.i: freetype\src\base\ftsynth.c.i
+
+.PHONY : freetype\src\base\ftsynth.i
+
+# target to preprocess a source file
+freetype\src\base\ftsynth.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftsynth.c.i
+.PHONY : freetype\src\base\ftsynth.c.i
+
+freetype\src\base\ftsynth.s: freetype\src\base\ftsynth.c.s
+
+.PHONY : freetype\src\base\ftsynth.s
+
+# target to generate assembly for a file
+freetype\src\base\ftsynth.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftsynth.c.s
+.PHONY : freetype\src\base\ftsynth.c.s
+
+freetype\src\base\ftsystem.obj: freetype\src\base\ftsystem.c.obj
+
+.PHONY : freetype\src\base\ftsystem.obj
+
+# target to build an object file
+freetype\src\base\ftsystem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftsystem.c.obj
+.PHONY : freetype\src\base\ftsystem.c.obj
+
+freetype\src\base\ftsystem.i: freetype\src\base\ftsystem.c.i
+
+.PHONY : freetype\src\base\ftsystem.i
+
+# target to preprocess a source file
+freetype\src\base\ftsystem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftsystem.c.i
+.PHONY : freetype\src\base\ftsystem.c.i
+
+freetype\src\base\ftsystem.s: freetype\src\base\ftsystem.c.s
+
+.PHONY : freetype\src\base\ftsystem.s
+
+# target to generate assembly for a file
+freetype\src\base\ftsystem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\base\ftsystem.c.s
+.PHONY : freetype\src\base\ftsystem.c.s
+
+freetype\src\cff\cff.obj: freetype\src\cff\cff.c.obj
+
+.PHONY : freetype\src\cff\cff.obj
+
+# target to build an object file
+freetype\src\cff\cff.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\cff\cff.c.obj
+.PHONY : freetype\src\cff\cff.c.obj
+
+freetype\src\cff\cff.i: freetype\src\cff\cff.c.i
+
+.PHONY : freetype\src\cff\cff.i
+
+# target to preprocess a source file
+freetype\src\cff\cff.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\cff\cff.c.i
+.PHONY : freetype\src\cff\cff.c.i
+
+freetype\src\cff\cff.s: freetype\src\cff\cff.c.s
+
+.PHONY : freetype\src\cff\cff.s
+
+# target to generate assembly for a file
+freetype\src\cff\cff.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\cff\cff.c.s
+.PHONY : freetype\src\cff\cff.c.s
+
+freetype\src\psaux\psaux.obj: freetype\src\psaux\psaux.c.obj
+
+.PHONY : freetype\src\psaux\psaux.obj
+
+# target to build an object file
+freetype\src\psaux\psaux.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\psaux\psaux.c.obj
+.PHONY : freetype\src\psaux\psaux.c.obj
+
+freetype\src\psaux\psaux.i: freetype\src\psaux\psaux.c.i
+
+.PHONY : freetype\src\psaux\psaux.i
+
+# target to preprocess a source file
+freetype\src\psaux\psaux.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\psaux\psaux.c.i
+.PHONY : freetype\src\psaux\psaux.c.i
+
+freetype\src\psaux\psaux.s: freetype\src\psaux\psaux.c.s
+
+.PHONY : freetype\src\psaux\psaux.s
+
+# target to generate assembly for a file
+freetype\src\psaux\psaux.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\psaux\psaux.c.s
+.PHONY : freetype\src\psaux\psaux.c.s
+
+freetype\src\pshinter\pshinter.obj: freetype\src\pshinter\pshinter.c.obj
+
+.PHONY : freetype\src\pshinter\pshinter.obj
+
+# target to build an object file
+freetype\src\pshinter\pshinter.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\pshinter\pshinter.c.obj
+.PHONY : freetype\src\pshinter\pshinter.c.obj
+
+freetype\src\pshinter\pshinter.i: freetype\src\pshinter\pshinter.c.i
+
+.PHONY : freetype\src\pshinter\pshinter.i
+
+# target to preprocess a source file
+freetype\src\pshinter\pshinter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\pshinter\pshinter.c.i
+.PHONY : freetype\src\pshinter\pshinter.c.i
+
+freetype\src\pshinter\pshinter.s: freetype\src\pshinter\pshinter.c.s
+
+.PHONY : freetype\src\pshinter\pshinter.s
+
+# target to generate assembly for a file
+freetype\src\pshinter\pshinter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\pshinter\pshinter.c.s
+.PHONY : freetype\src\pshinter\pshinter.c.s
+
+freetype\src\psnames\psnames.obj: freetype\src\psnames\psnames.c.obj
+
+.PHONY : freetype\src\psnames\psnames.obj
+
+# target to build an object file
+freetype\src\psnames\psnames.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\psnames\psnames.c.obj
+.PHONY : freetype\src\psnames\psnames.c.obj
+
+freetype\src\psnames\psnames.i: freetype\src\psnames\psnames.c.i
+
+.PHONY : freetype\src\psnames\psnames.i
+
+# target to preprocess a source file
+freetype\src\psnames\psnames.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\psnames\psnames.c.i
+.PHONY : freetype\src\psnames\psnames.c.i
+
+freetype\src\psnames\psnames.s: freetype\src\psnames\psnames.c.s
+
+.PHONY : freetype\src\psnames\psnames.s
+
+# target to generate assembly for a file
+freetype\src\psnames\psnames.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\psnames\psnames.c.s
+.PHONY : freetype\src\psnames\psnames.c.s
+
+freetype\src\raster\raster.obj: freetype\src\raster\raster.c.obj
+
+.PHONY : freetype\src\raster\raster.obj
+
+# target to build an object file
+freetype\src\raster\raster.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\raster\raster.c.obj
+.PHONY : freetype\src\raster\raster.c.obj
+
+freetype\src\raster\raster.i: freetype\src\raster\raster.c.i
+
+.PHONY : freetype\src\raster\raster.i
+
+# target to preprocess a source file
+freetype\src\raster\raster.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\raster\raster.c.i
+.PHONY : freetype\src\raster\raster.c.i
+
+freetype\src\raster\raster.s: freetype\src\raster\raster.c.s
+
+.PHONY : freetype\src\raster\raster.s
+
+# target to generate assembly for a file
+freetype\src\raster\raster.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\raster\raster.c.s
+.PHONY : freetype\src\raster\raster.c.s
+
+freetype\src\sfnt\sfnt.obj: freetype\src\sfnt\sfnt.c.obj
+
+.PHONY : freetype\src\sfnt\sfnt.obj
+
+# target to build an object file
+freetype\src\sfnt\sfnt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\sfnt\sfnt.c.obj
+.PHONY : freetype\src\sfnt\sfnt.c.obj
+
+freetype\src\sfnt\sfnt.i: freetype\src\sfnt\sfnt.c.i
+
+.PHONY : freetype\src\sfnt\sfnt.i
+
+# target to preprocess a source file
+freetype\src\sfnt\sfnt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\sfnt\sfnt.c.i
+.PHONY : freetype\src\sfnt\sfnt.c.i
+
+freetype\src\sfnt\sfnt.s: freetype\src\sfnt\sfnt.c.s
+
+.PHONY : freetype\src\sfnt\sfnt.s
+
+# target to generate assembly for a file
+freetype\src\sfnt\sfnt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\sfnt\sfnt.c.s
+.PHONY : freetype\src\sfnt\sfnt.c.s
+
+freetype\src\smooth\smooth.obj: freetype\src\smooth\smooth.c.obj
+
+.PHONY : freetype\src\smooth\smooth.obj
+
+# target to build an object file
+freetype\src\smooth\smooth.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\smooth\smooth.c.obj
+.PHONY : freetype\src\smooth\smooth.c.obj
+
+freetype\src\smooth\smooth.i: freetype\src\smooth\smooth.c.i
+
+.PHONY : freetype\src\smooth\smooth.i
+
+# target to preprocess a source file
+freetype\src\smooth\smooth.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\smooth\smooth.c.i
+.PHONY : freetype\src\smooth\smooth.c.i
+
+freetype\src\smooth\smooth.s: freetype\src\smooth\smooth.c.s
+
+.PHONY : freetype\src\smooth\smooth.s
+
+# target to generate assembly for a file
+freetype\src\smooth\smooth.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\smooth\smooth.c.s
+.PHONY : freetype\src\smooth\smooth.c.s
+
+freetype\src\truetype\truetype.obj: freetype\src\truetype\truetype.c.obj
+
+.PHONY : freetype\src\truetype\truetype.obj
+
+# target to build an object file
+freetype\src\truetype\truetype.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\truetype\truetype.c.obj
+.PHONY : freetype\src\truetype\truetype.c.obj
+
+freetype\src\truetype\truetype.i: freetype\src\truetype\truetype.c.i
+
+.PHONY : freetype\src\truetype\truetype.i
+
+# target to preprocess a source file
+freetype\src\truetype\truetype.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\truetype\truetype.c.i
+.PHONY : freetype\src\truetype\truetype.c.i
+
+freetype\src\truetype\truetype.s: freetype\src\truetype\truetype.c.s
+
+.PHONY : freetype\src\truetype\truetype.s
+
+# target to generate assembly for a file
+freetype\src\truetype\truetype.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\truetype\truetype.c.s
+.PHONY : freetype\src\truetype\truetype.c.s
+
+imgui\imgui.obj: imgui\imgui.cpp.obj
+
+.PHONY : imgui\imgui.obj
+
+# target to build an object file
+imgui\imgui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui.cpp.obj
+.PHONY : imgui\imgui.cpp.obj
+
+imgui\imgui.i: imgui\imgui.cpp.i
+
+.PHONY : imgui\imgui.i
+
+# target to preprocess a source file
+imgui\imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui.cpp.i
+.PHONY : imgui\imgui.cpp.i
+
+imgui\imgui.s: imgui\imgui.cpp.s
+
+.PHONY : imgui\imgui.s
+
+# target to generate assembly for a file
+imgui\imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui.cpp.s
+.PHONY : imgui\imgui.cpp.s
+
+imgui\imgui_draw.obj: imgui\imgui_draw.cpp.obj
+
+.PHONY : imgui\imgui_draw.obj
+
+# target to build an object file
+imgui\imgui_draw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_draw.cpp.obj
+.PHONY : imgui\imgui_draw.cpp.obj
+
+imgui\imgui_draw.i: imgui\imgui_draw.cpp.i
+
+.PHONY : imgui\imgui_draw.i
+
+# target to preprocess a source file
+imgui\imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_draw.cpp.i
+.PHONY : imgui\imgui_draw.cpp.i
+
+imgui\imgui_draw.s: imgui\imgui_draw.cpp.s
+
+.PHONY : imgui\imgui_draw.s
+
+# target to generate assembly for a file
+imgui\imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_draw.cpp.s
+.PHONY : imgui\imgui_draw.cpp.s
+
+imgui\imgui_freetype.obj: imgui\imgui_freetype.cpp.obj
+
+.PHONY : imgui\imgui_freetype.obj
+
+# target to build an object file
+imgui\imgui_freetype.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_freetype.cpp.obj
+.PHONY : imgui\imgui_freetype.cpp.obj
+
+imgui\imgui_freetype.i: imgui\imgui_freetype.cpp.i
+
+.PHONY : imgui\imgui_freetype.i
+
+# target to preprocess a source file
+imgui\imgui_freetype.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_freetype.cpp.i
+.PHONY : imgui\imgui_freetype.cpp.i
+
+imgui\imgui_freetype.s: imgui\imgui_freetype.cpp.s
+
+.PHONY : imgui\imgui_freetype.s
+
+# target to generate assembly for a file
+imgui\imgui_freetype.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_freetype.cpp.s
+.PHONY : imgui\imgui_freetype.cpp.s
+
+imgui\imgui_impl_dx9.obj: imgui\imgui_impl_dx9.cpp.obj
+
+.PHONY : imgui\imgui_impl_dx9.obj
+
+# target to build an object file
+imgui\imgui_impl_dx9.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_dx9.cpp.obj
+.PHONY : imgui\imgui_impl_dx9.cpp.obj
+
+imgui\imgui_impl_dx9.i: imgui\imgui_impl_dx9.cpp.i
+
+.PHONY : imgui\imgui_impl_dx9.i
+
+# target to preprocess a source file
+imgui\imgui_impl_dx9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_dx9.cpp.i
+.PHONY : imgui\imgui_impl_dx9.cpp.i
+
+imgui\imgui_impl_dx9.s: imgui\imgui_impl_dx9.cpp.s
+
+.PHONY : imgui\imgui_impl_dx9.s
+
+# target to generate assembly for a file
+imgui\imgui_impl_dx9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_dx9.cpp.s
+.PHONY : imgui\imgui_impl_dx9.cpp.s
+
+imgui\imgui_impl_win32.obj: imgui\imgui_impl_win32.cpp.obj
+
+.PHONY : imgui\imgui_impl_win32.obj
+
+# target to build an object file
+imgui\imgui_impl_win32.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_win32.cpp.obj
+.PHONY : imgui\imgui_impl_win32.cpp.obj
+
+imgui\imgui_impl_win32.i: imgui\imgui_impl_win32.cpp.i
+
+.PHONY : imgui\imgui_impl_win32.i
+
+# target to preprocess a source file
+imgui\imgui_impl_win32.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_win32.cpp.i
+.PHONY : imgui\imgui_impl_win32.cpp.i
+
+imgui\imgui_impl_win32.s: imgui\imgui_impl_win32.cpp.s
+
+.PHONY : imgui\imgui_impl_win32.s
+
+# target to generate assembly for a file
+imgui\imgui_impl_win32.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_win32.cpp.s
+.PHONY : imgui\imgui_impl_win32.cpp.s
+
+imgui\imgui_tables.obj: imgui\imgui_tables.cpp.obj
+
+.PHONY : imgui\imgui_tables.obj
+
+# target to build an object file
+imgui\imgui_tables.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_tables.cpp.obj
+.PHONY : imgui\imgui_tables.cpp.obj
+
+imgui\imgui_tables.i: imgui\imgui_tables.cpp.i
+
+.PHONY : imgui\imgui_tables.i
+
+# target to preprocess a source file
+imgui\imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_tables.cpp.i
+.PHONY : imgui\imgui_tables.cpp.i
+
+imgui\imgui_tables.s: imgui\imgui_tables.cpp.s
+
+.PHONY : imgui\imgui_tables.s
+
+# target to generate assembly for a file
+imgui\imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_tables.cpp.s
+.PHONY : imgui\imgui_tables.cpp.s
+
+imgui\imgui_widgets.obj: imgui\imgui_widgets.cpp.obj
+
+.PHONY : imgui\imgui_widgets.obj
+
+# target to build an object file
+imgui\imgui_widgets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_widgets.cpp.obj
+.PHONY : imgui\imgui_widgets.cpp.obj
+
+imgui\imgui_widgets.i: imgui\imgui_widgets.cpp.i
+
+.PHONY : imgui\imgui_widgets.i
+
+# target to preprocess a source file
+imgui\imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_widgets.cpp.i
+.PHONY : imgui\imgui_widgets.cpp.i
+
+imgui\imgui_widgets.s: imgui\imgui_widgets.cpp.s
+
+.PHONY : imgui\imgui_widgets.s
+
+# target to generate assembly for a file
+imgui\imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_widgets.cpp.s
+.PHONY : imgui\imgui_widgets.cpp.s
+
 process\process.obj: process\process.cpp.obj
 
 .PHONY : process\process.obj
@@ -216,12 +864,84 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LimpChimp_CS_GO
+	@echo ... Gui.obj
+	@echo ... Gui.i
+	@echo ... Gui.s
 	@echo ... Hooks.obj
 	@echo ... Hooks.i
 	@echo ... Hooks.s
 	@echo ... LimpChimp.obj
 	@echo ... LimpChimp.i
 	@echo ... LimpChimp.s
+	@echo ... freetype/src/autofit/autofit.obj
+	@echo ... freetype/src/autofit/autofit.i
+	@echo ... freetype/src/autofit/autofit.s
+	@echo ... freetype/src/base/ftbase.obj
+	@echo ... freetype/src/base/ftbase.i
+	@echo ... freetype/src/base/ftbase.s
+	@echo ... freetype/src/base/ftbitmap.obj
+	@echo ... freetype/src/base/ftbitmap.i
+	@echo ... freetype/src/base/ftbitmap.s
+	@echo ... freetype/src/base/ftdebug.obj
+	@echo ... freetype/src/base/ftdebug.i
+	@echo ... freetype/src/base/ftdebug.s
+	@echo ... freetype/src/base/ftglyph.obj
+	@echo ... freetype/src/base/ftglyph.i
+	@echo ... freetype/src/base/ftglyph.s
+	@echo ... freetype/src/base/ftinit.obj
+	@echo ... freetype/src/base/ftinit.i
+	@echo ... freetype/src/base/ftinit.s
+	@echo ... freetype/src/base/ftsynth.obj
+	@echo ... freetype/src/base/ftsynth.i
+	@echo ... freetype/src/base/ftsynth.s
+	@echo ... freetype/src/base/ftsystem.obj
+	@echo ... freetype/src/base/ftsystem.i
+	@echo ... freetype/src/base/ftsystem.s
+	@echo ... freetype/src/cff/cff.obj
+	@echo ... freetype/src/cff/cff.i
+	@echo ... freetype/src/cff/cff.s
+	@echo ... freetype/src/psaux/psaux.obj
+	@echo ... freetype/src/psaux/psaux.i
+	@echo ... freetype/src/psaux/psaux.s
+	@echo ... freetype/src/pshinter/pshinter.obj
+	@echo ... freetype/src/pshinter/pshinter.i
+	@echo ... freetype/src/pshinter/pshinter.s
+	@echo ... freetype/src/psnames/psnames.obj
+	@echo ... freetype/src/psnames/psnames.i
+	@echo ... freetype/src/psnames/psnames.s
+	@echo ... freetype/src/raster/raster.obj
+	@echo ... freetype/src/raster/raster.i
+	@echo ... freetype/src/raster/raster.s
+	@echo ... freetype/src/sfnt/sfnt.obj
+	@echo ... freetype/src/sfnt/sfnt.i
+	@echo ... freetype/src/sfnt/sfnt.s
+	@echo ... freetype/src/smooth/smooth.obj
+	@echo ... freetype/src/smooth/smooth.i
+	@echo ... freetype/src/smooth/smooth.s
+	@echo ... freetype/src/truetype/truetype.obj
+	@echo ... freetype/src/truetype/truetype.i
+	@echo ... freetype/src/truetype/truetype.s
+	@echo ... imgui/imgui.obj
+	@echo ... imgui/imgui.i
+	@echo ... imgui/imgui.s
+	@echo ... imgui/imgui_draw.obj
+	@echo ... imgui/imgui_draw.i
+	@echo ... imgui/imgui_draw.s
+	@echo ... imgui/imgui_freetype.obj
+	@echo ... imgui/imgui_freetype.i
+	@echo ... imgui/imgui_freetype.s
+	@echo ... imgui/imgui_impl_dx9.obj
+	@echo ... imgui/imgui_impl_dx9.i
+	@echo ... imgui/imgui_impl_dx9.s
+	@echo ... imgui/imgui_impl_win32.obj
+	@echo ... imgui/imgui_impl_win32.i
+	@echo ... imgui/imgui_impl_win32.s
+	@echo ... imgui/imgui_tables.obj
+	@echo ... imgui/imgui_tables.i
+	@echo ... imgui/imgui_tables.s
+	@echo ... imgui/imgui_widgets.obj
+	@echo ... imgui/imgui_widgets.i
+	@echo ... imgui/imgui_widgets.s
 	@echo ... process/process.obj
 	@echo ... process/process.i
 	@echo ... process/process.s
