@@ -94,6 +94,12 @@
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Helpers.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Helpers.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.cpp">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
@@ -104,6 +110,36 @@
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/LimpChimp.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Memory.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Memory.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/MinHook.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/buffer.c">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/buffer.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/hde/hde32.c">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/hde/hde32.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/hook.c">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/trampoline.c">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/trampoline.h">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/freetype/ft2build.h">

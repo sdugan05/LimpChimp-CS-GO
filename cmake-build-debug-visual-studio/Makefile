@@ -153,6 +153,33 @@ Gui.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.s
 .PHONY : Gui.cpp.s
 
+Helpers.obj: Helpers.cpp.obj
+
+.PHONY : Helpers.obj
+
+# target to build an object file
+Helpers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Helpers.cpp.obj
+.PHONY : Helpers.cpp.obj
+
+Helpers.i: Helpers.cpp.i
+
+.PHONY : Helpers.i
+
+# target to preprocess a source file
+Helpers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Helpers.cpp.i
+.PHONY : Helpers.cpp.i
+
+Helpers.s: Helpers.cpp.s
+
+.PHONY : Helpers.s
+
+# target to generate assembly for a file
+Helpers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Helpers.cpp.s
+.PHONY : Helpers.cpp.s
+
 Hooks.obj: Hooks.cpp.obj
 
 .PHONY : Hooks.obj
@@ -206,6 +233,141 @@ LimpChimp.s: LimpChimp.cpp.s
 LimpChimp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\LimpChimp.cpp.s
 .PHONY : LimpChimp.cpp.s
+
+Memory.obj: Memory.cpp.obj
+
+.PHONY : Memory.obj
+
+# target to build an object file
+Memory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Memory.cpp.obj
+.PHONY : Memory.cpp.obj
+
+Memory.i: Memory.cpp.i
+
+.PHONY : Memory.i
+
+# target to preprocess a source file
+Memory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Memory.cpp.i
+.PHONY : Memory.cpp.i
+
+Memory.s: Memory.cpp.s
+
+.PHONY : Memory.s
+
+# target to generate assembly for a file
+Memory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Memory.cpp.s
+.PHONY : Memory.cpp.s
+
+MinHook\buffer.obj: MinHook\buffer.c.obj
+
+.PHONY : MinHook\buffer.obj
+
+# target to build an object file
+MinHook\buffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\MinHook\buffer.c.obj
+.PHONY : MinHook\buffer.c.obj
+
+MinHook\buffer.i: MinHook\buffer.c.i
+
+.PHONY : MinHook\buffer.i
+
+# target to preprocess a source file
+MinHook\buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\MinHook\buffer.c.i
+.PHONY : MinHook\buffer.c.i
+
+MinHook\buffer.s: MinHook\buffer.c.s
+
+.PHONY : MinHook\buffer.s
+
+# target to generate assembly for a file
+MinHook\buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\MinHook\buffer.c.s
+.PHONY : MinHook\buffer.c.s
+
+MinHook\hde\hde32.obj: MinHook\hde\hde32.c.obj
+
+.PHONY : MinHook\hde\hde32.obj
+
+# target to build an object file
+MinHook\hde\hde32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hde\hde32.c.obj
+.PHONY : MinHook\hde\hde32.c.obj
+
+MinHook\hde\hde32.i: MinHook\hde\hde32.c.i
+
+.PHONY : MinHook\hde\hde32.i
+
+# target to preprocess a source file
+MinHook\hde\hde32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hde\hde32.c.i
+.PHONY : MinHook\hde\hde32.c.i
+
+MinHook\hde\hde32.s: MinHook\hde\hde32.c.s
+
+.PHONY : MinHook\hde\hde32.s
+
+# target to generate assembly for a file
+MinHook\hde\hde32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hde\hde32.c.s
+.PHONY : MinHook\hde\hde32.c.s
+
+MinHook\hook.obj: MinHook\hook.c.obj
+
+.PHONY : MinHook\hook.obj
+
+# target to build an object file
+MinHook\hook.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hook.c.obj
+.PHONY : MinHook\hook.c.obj
+
+MinHook\hook.i: MinHook\hook.c.i
+
+.PHONY : MinHook\hook.i
+
+# target to preprocess a source file
+MinHook\hook.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hook.c.i
+.PHONY : MinHook\hook.c.i
+
+MinHook\hook.s: MinHook\hook.c.s
+
+.PHONY : MinHook\hook.s
+
+# target to generate assembly for a file
+MinHook\hook.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hook.c.s
+.PHONY : MinHook\hook.c.s
+
+MinHook\trampoline.obj: MinHook\trampoline.c.obj
+
+.PHONY : MinHook\trampoline.obj
+
+# target to build an object file
+MinHook\trampoline.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\MinHook\trampoline.c.obj
+.PHONY : MinHook\trampoline.c.obj
+
+MinHook\trampoline.i: MinHook\trampoline.c.i
+
+.PHONY : MinHook\trampoline.i
+
+# target to preprocess a source file
+MinHook\trampoline.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\MinHook\trampoline.c.i
+.PHONY : MinHook\trampoline.c.i
+
+MinHook\trampoline.s: MinHook\trampoline.c.s
+
+.PHONY : MinHook\trampoline.s
+
+# target to generate assembly for a file
+MinHook\trampoline.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\MinHook\trampoline.c.s
+.PHONY : MinHook\trampoline.c.s
 
 freetype\src\autofit\autofit.obj: freetype\src\autofit\autofit.c.obj
 
@@ -867,12 +1029,30 @@ help:
 	@echo ... Gui.obj
 	@echo ... Gui.i
 	@echo ... Gui.s
+	@echo ... Helpers.obj
+	@echo ... Helpers.i
+	@echo ... Helpers.s
 	@echo ... Hooks.obj
 	@echo ... Hooks.i
 	@echo ... Hooks.s
 	@echo ... LimpChimp.obj
 	@echo ... LimpChimp.i
 	@echo ... LimpChimp.s
+	@echo ... Memory.obj
+	@echo ... Memory.i
+	@echo ... Memory.s
+	@echo ... MinHook/buffer.obj
+	@echo ... MinHook/buffer.i
+	@echo ... MinHook/buffer.s
+	@echo ... MinHook/hde/hde32.obj
+	@echo ... MinHook/hde/hde32.i
+	@echo ... MinHook/hde/hde32.s
+	@echo ... MinHook/hook.obj
+	@echo ... MinHook/hook.i
+	@echo ... MinHook/hook.s
+	@echo ... MinHook/trampoline.obj
+	@echo ... MinHook/trampoline.i
+	@echo ... MinHook/trampoline.s
 	@echo ... freetype/src/autofit/autofit.obj
 	@echo ... freetype/src/autofit/autofit.i
 	@echo ... freetype/src/autofit/autofit.s

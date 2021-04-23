@@ -5,6 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/buffer.c" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/MinHook/buffer.c.obj"
+  "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/hde/hde32.c" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/MinHook/hde/hde32.c.obj"
+  "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/hook.c" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/MinHook/hook.c.obj"
+  "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/trampoline.c" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/MinHook/trampoline.c.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/freetype/src/autofit/autofit.c" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/freetype/src/autofit/autofit.c.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/freetype/src/base/ftbase.c" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/freetype/src/base/ftbase.c.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/freetype/src/base/ftbitmap.c" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/freetype/src/base/ftbitmap.c.obj"
@@ -37,8 +41,10 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Gui.cpp.obj"
+  "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Helpers.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Helpers.cpp.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Hooks.cpp.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/LimpChimp.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/LimpChimp.cpp.obj"
+  "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Memory.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Memory.cpp.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_draw.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_freetype.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_freetype.cpp.obj"

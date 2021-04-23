@@ -1,7 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LimpChimp_CS_GO.dir/Gui.cpp.obj"
+  "CMakeFiles/LimpChimp_CS_GO.dir/Helpers.cpp.obj"
   "CMakeFiles/LimpChimp_CS_GO.dir/Hooks.cpp.obj"
   "CMakeFiles/LimpChimp_CS_GO.dir/LimpChimp.cpp.obj"
+  "CMakeFiles/LimpChimp_CS_GO.dir/Memory.cpp.obj"
+  "CMakeFiles/LimpChimp_CS_GO.dir/MinHook/buffer.c.obj"
+  "CMakeFiles/LimpChimp_CS_GO.dir/MinHook/hde/hde32.c.obj"
+  "CMakeFiles/LimpChimp_CS_GO.dir/MinHook/hook.c.obj"
+  "CMakeFiles/LimpChimp_CS_GO.dir/MinHook/trampoline.c.obj"
   "CMakeFiles/LimpChimp_CS_GO.dir/freetype/src/autofit/autofit.c.obj"
   "CMakeFiles/LimpChimp_CS_GO.dir/freetype/src/base/ftbase.c.obj"
   "CMakeFiles/LimpChimp_CS_GO.dir/freetype/src/base/ftbitmap.c.obj"

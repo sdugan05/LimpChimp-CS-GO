@@ -13,5 +13,5 @@ CXX_DEFINES = -DFT2_BUILD_LIBRARY -DLimpChimp_CS_GO_EXPORTS
 
 CXX_INCLUDES = -I\usr\local\include -IC:\Users\Saul\Projects\LX\LimpChimp-CS-GO\freetype
 
-CXX_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+CXX_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
 

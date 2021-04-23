@@ -17,17 +17,39 @@
 
 #include "process/process.hpp"
 
+#include "Memory.h"
+
 #include "Gui.h"
 
+int once = 0;
+
 static LRESULT __stdcall wndProc(HWND window, UINT msg, WPARAM wParam, LPARAM lParam) noexcept{
-    [[maybe_unused]] static const auto once = [](HWND window) noexcept {
+//    [[maybe_unused]] static const auto once = [](HWND window) noexcept {
+//        std::cout << "once" << std::endl;
+//        ImGui::CreateContext();
+//        ImGui_ImplWin32_Init(window);
+//
+//        gui = std::make_unique<Gui>();
+//
+//        std::cout << "render???" << std::endl;
+//        hooks->initialize();
+//
+//        return true;
+//    }(window);
+
+    if(once == 0) {
+
+
         ImGui::CreateContext();
+
         ImGui_ImplWin32_Init(window);
 
-        hooks->initialize();
+        gui = std::make_unique<Gui>();
 
-        return true;
-    }(window);
+        std::cout << "render???" << std::endl;
+        hooks->initialize();
+        once = 1;
+    }
 
     LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
     ImGui_ImplWin32_WndProcHandler(window, msg, wParam, lParam);
@@ -42,6 +64,7 @@ static HRESULT __stdcall present(IDirect3DDevice9* device, const RECT* src, cons
     ImGui_ImplDX9_NewFrame();
     ImGui_ImplWin32_NewFrame();
     ImGui::NewFrame();
+
 
     ImGui::Text("AAA");
 
@@ -63,10 +86,13 @@ static HRESULT __stdcall reset(IDirect3DDevice9* device, D3DPRESENT_PARAMETERS* 
 
 
 void Hooks::initialize() {
-//    originalPresent = **reinterpret_cast<decltype(originalPresent)**>(memory->present);
-//    **reinterpret_cast<decltype(present)***>(memory->present) = present;
-//    originalReset = **reinterpret_cast<decltype(originalReset)**>(memory->reset);
-//    **reinterpret_cast<decltype(reset)***>(memory->reset) = reset;
+    std::cout << "innit" << std::endl;
+    originalPresent = **reinterpret_cast<decltype(originalPresent)**>(memory->present);
+    **reinterpret_cast<decltype(present)***>(memory->present) = present;
+    originalReset = **reinterpret_cast<decltype(originalReset)**>(memory->reset);
+    **reinterpret_cast<decltype(reset)***>(memory->reset) = reset;
+
+    MH_Initialize();
 }
 
 void Hooks::findModules() {
@@ -136,7 +162,8 @@ Hooks::Hooks(HMODULE moduleHandle) {
     this->window = FindWindowA(nullptr, "Counter-Strike: Global Offensive");
     Hooks::findModules();
 
-    std::this_thread::sleep_for(std::chrono::seconds(3));
+    std::this_thread::sleep_for(std::chrono::seconds(1));
+    memory = std::make_unique<Memory>();
     originalWndProc = WNDPROC(SetWindowLongPtrW(window, GWLP_WNDPROC, LONG_PTR(wndProc)));
 
 }

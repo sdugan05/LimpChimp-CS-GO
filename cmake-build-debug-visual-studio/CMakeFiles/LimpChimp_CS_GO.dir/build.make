@@ -573,6 +573,120 @@ CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\truetype\truetype.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\LimpChimp_CS_GO.dir\freetype\src\truetype\truetype.c.s /c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\freetype\src\truetype\truetype.c
 <<
 
+CMakeFiles\LimpChimp_CS_GO.dir\Memory.cpp.obj: CMakeFiles\LimpChimp_CS_GO.dir\flags.make
+CMakeFiles\LimpChimp_CS_GO.dir\Memory.cpp.obj: ..\Memory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/Memory.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\LimpChimp_CS_GO.dir\Memory.cpp.obj /FdCMakeFiles\LimpChimp_CS_GO.dir\ /FS -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Memory.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Memory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/Memory.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\LimpChimp_CS_GO.dir\Memory.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Memory.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Memory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/Memory.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LimpChimp_CS_GO.dir\Memory.cpp.s /c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Memory.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hde\hde32.c.obj: CMakeFiles\LimpChimp_CS_GO.dir\flags.make
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hde\hde32.c.obj: ..\MinHook\hde\hde32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/LimpChimp_CS_GO.dir/MinHook/hde/hde32.c.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\LimpChimp_CS_GO.dir\MinHook\hde\hde32.c.obj /FdCMakeFiles\LimpChimp_CS_GO.dir\ /FS -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\MinHook\hde\hde32.c
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hde\hde32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LimpChimp_CS_GO.dir/MinHook/hde/hde32.c.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hde\hde32.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\MinHook\hde\hde32.c
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hde\hde32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LimpChimp_CS_GO.dir/MinHook/hde/hde32.c.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\LimpChimp_CS_GO.dir\MinHook\hde\hde32.c.s /c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\MinHook\hde\hde32.c
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hook.c.obj: CMakeFiles\LimpChimp_CS_GO.dir\flags.make
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hook.c.obj: ..\MinHook\hook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/LimpChimp_CS_GO.dir/MinHook/hook.c.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\LimpChimp_CS_GO.dir\MinHook\hook.c.obj /FdCMakeFiles\LimpChimp_CS_GO.dir\ /FS -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\MinHook\hook.c
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LimpChimp_CS_GO.dir/MinHook/hook.c.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hook.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\MinHook\hook.c
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LimpChimp_CS_GO.dir/MinHook/hook.c.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\LimpChimp_CS_GO.dir\MinHook\hook.c.s /c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\MinHook\hook.c
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\buffer.c.obj: CMakeFiles\LimpChimp_CS_GO.dir\flags.make
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\buffer.c.obj: ..\MinHook\buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/LimpChimp_CS_GO.dir/MinHook/buffer.c.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\LimpChimp_CS_GO.dir\MinHook\buffer.c.obj /FdCMakeFiles\LimpChimp_CS_GO.dir\ /FS -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\MinHook\buffer.c
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LimpChimp_CS_GO.dir/MinHook/buffer.c.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\LimpChimp_CS_GO.dir\MinHook\buffer.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\MinHook\buffer.c
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LimpChimp_CS_GO.dir/MinHook/buffer.c.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\LimpChimp_CS_GO.dir\MinHook\buffer.c.s /c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\MinHook\buffer.c
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\trampoline.c.obj: CMakeFiles\LimpChimp_CS_GO.dir\flags.make
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\trampoline.c.obj: ..\MinHook\trampoline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/LimpChimp_CS_GO.dir/MinHook/trampoline.c.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\LimpChimp_CS_GO.dir\MinHook\trampoline.c.obj /FdCMakeFiles\LimpChimp_CS_GO.dir\ /FS -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\MinHook\trampoline.c
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\trampoline.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LimpChimp_CS_GO.dir/MinHook/trampoline.c.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\LimpChimp_CS_GO.dir\MinHook\trampoline.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\MinHook\trampoline.c
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\MinHook\trampoline.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LimpChimp_CS_GO.dir/MinHook/trampoline.c.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\LimpChimp_CS_GO.dir\MinHook\trampoline.c.s /c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\MinHook\trampoline.c
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Helpers.cpp.obj: CMakeFiles\LimpChimp_CS_GO.dir\flags.make
+CMakeFiles\LimpChimp_CS_GO.dir\Helpers.cpp.obj: ..\Helpers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/Helpers.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\LimpChimp_CS_GO.dir\Helpers.cpp.obj /FdCMakeFiles\LimpChimp_CS_GO.dir\ /FS -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Helpers.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Helpers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/Helpers.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\LimpChimp_CS_GO.dir\Helpers.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Helpers.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Helpers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/Helpers.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LimpChimp_CS_GO.dir\Helpers.cpp.s /c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Helpers.cpp
+<<
+
 # Object files for target LimpChimp_CS_GO
 LimpChimp_CS_GO_OBJECTS = \
 "CMakeFiles\LimpChimp_CS_GO.dir\LimpChimp.cpp.obj" \
@@ -601,7 +715,13 @@ LimpChimp_CS_GO_OBJECTS = \
 "CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\raster\raster.c.obj" \
 "CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\sfnt\sfnt.c.obj" \
 "CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\smooth\smooth.c.obj" \
-"CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\truetype\truetype.c.obj"
+"CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\truetype\truetype.c.obj" \
+"CMakeFiles\LimpChimp_CS_GO.dir\Memory.cpp.obj" \
+"CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hde\hde32.c.obj" \
+"CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hook.c.obj" \
+"CMakeFiles\LimpChimp_CS_GO.dir\MinHook\buffer.c.obj" \
+"CMakeFiles\LimpChimp_CS_GO.dir\MinHook\trampoline.c.obj" \
+"CMakeFiles\LimpChimp_CS_GO.dir\Helpers.cpp.obj"
 
 # External object files for target LimpChimp_CS_GO
 LimpChimp_CS_GO_EXTERNAL_OBJECTS =
@@ -633,9 +753,15 @@ LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\raster\raster.c
 LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\sfnt\sfnt.c.obj
 LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\smooth\smooth.c.obj
 LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\freetype\src\truetype\truetype.c.obj
+LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\Memory.cpp.obj
+LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hde\hde32.c.obj
+LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\MinHook\hook.c.obj
+LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\MinHook\buffer.c.obj
+LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\MinHook\trampoline.c.obj
+LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\Helpers.cpp.obj
 LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\build.make
 LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX shared library LimpChimp_CS_GO.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX shared library LimpChimp_CS_GO.dll"
 	C:\Users\Saul\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E vs_link_dll --intdir=CMakeFiles\LimpChimp_CS_GO.dir --rc=C:\PROGRA~2\WINDOW~4\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WINDOW~4\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\LimpChimp_CS_GO.dir\objects1.rsp @<<
  /out:LimpChimp_CS_GO.dll /implib:LimpChimp_CS_GO.lib /pdb:C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\LimpChimp_CS_GO.pdb /dll /version:0.0 /machine:X86 /debug /INCREMENTAL   -LIBPATH:\usr\local\lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  
 <<
