@@ -6,59 +6,95 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
-memory
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3d9.h
+stdlib.h
 -
-vector
+objbase.h
 -
-string
--
-imgui/imgui.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h
-
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.cpp
-ios
--
-iostream
--
-Hooks.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.h
-thread
--
-MinHook/MinHook.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/MinHook.h
-imgui/imgui.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h
-imgui/imgui_impl_dx9.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_dx9.h
-imgui/imgui_impl_win32.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_win32.h
-process/process.hpp
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/process/process.hpp
-Memory.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Memory.h
-Gui.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
-
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hooks.h
-Windows.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Windows.h
-d3d9.h
--
-memory
--
-
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Memory.h
-memory
--
-
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/MinHook/MinHook.h
 windows.h
+-
+d3d9types.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3d9types.h
+d3d9caps.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3d9caps.h
+
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3d9caps.h
+
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3d9types.h
+float.h
+-
+
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9.h
+limits.h
+-
+d3d9.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3d9.h
+d3dx9math.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9math.h
+d3dx9core.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9core.h
+d3dx9xof.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9xof.h
+d3dx9mesh.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9mesh.h
+d3dx9shader.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9shader.h
+d3dx9effect.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9effect.h
+d3dx9tex.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9tex.h
+d3dx9shape.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9shape.h
+d3dx9anim.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9anim.h
+
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9anim.h
+
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9core.h
+d3dx9.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9.h
+
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9effect.h
+d3dx9.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9.h
+
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9math.h
+d3dx9.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9.h
+math.h
+-
+d3dx9math.inl
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9math.inl
+
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9math.inl
+
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9mesh.h
+d3dx9.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9.h
+
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9shader.h
+d3dx9.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9.h
+
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9shape.h
+d3dx9.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9.h
+
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9tex.h
+d3dx9.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9.h
+
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9xof.h
+d3dx9.h
+C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9.h
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
+cstdint
+-
+cstddef
 -
 
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imconfig.h
-array
--
 
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h
 imconfig.h
@@ -81,18 +117,38 @@ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_user.h
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_dx9.h
 
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_win32.h
-imgui.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h
 
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/process/process.hpp
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/includes.h
 Windows.h
 -
-memory
+d3d9.h
 -
-string
+d3dx9.h
 -
-array
+kiero/kiero.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/kiero.h
+kiero/minhook/include/MinHook.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/include/MinHook.h
+imgui/imgui.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h
+imgui/imgui_impl_win32.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_win32.h
+imgui/imgui_impl_dx9.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_dx9.h
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/kiero.h
+stdint.h
 -
-vector
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/include/MinHook.h
+windows.h
+-
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/main.cpp
+includes.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/includes.h
+csgo.hpp
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
+thread
 -
 

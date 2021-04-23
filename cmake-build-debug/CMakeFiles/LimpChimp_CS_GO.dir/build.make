@@ -75,32 +75,209 @@ include CMakeFiles/LimpChimp_CS_GO.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LimpChimp_CS_GO.dir/flags.make
 
-CMakeFiles/LimpChimp_CS_GO.dir/library.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/flags.make
-CMakeFiles/LimpChimp_CS_GO.dir/library.cpp.obj: ../library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/library.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LimpChimp_CS_GO.dir\library.cpp.obj -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\library.cpp
+CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/flags.make
+CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/includes_CXX.rsp
+CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\main.cpp
 
-CMakeFiles/LimpChimp_CS_GO.dir/library.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/library.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\library.cpp > CMakeFiles\LimpChimp_CS_GO.dir\library.cpp.i
+CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\main.cpp > CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.i
 
-CMakeFiles/LimpChimp_CS_GO.dir/library.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/library.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\library.cpp -o CMakeFiles\LimpChimp_CS_GO.dir\library.cpp.s
+CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\main.cpp -o CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.s
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/kiero.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/flags.make
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/kiero.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/includes_CXX.rsp
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/kiero.cpp.obj: ../kiero/kiero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/kiero/kiero.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LimpChimp_CS_GO.dir\kiero\kiero.cpp.obj -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\kiero.cpp
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/kiero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/kiero/kiero.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\kiero.cpp > CMakeFiles\LimpChimp_CS_GO.dir\kiero\kiero.cpp.i
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/kiero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/kiero/kiero.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\kiero.cpp -o CMakeFiles\LimpChimp_CS_GO.dir\kiero\kiero.cpp.s
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.obj: CMakeFiles/LimpChimp_CS_GO.dir/flags.make
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.obj: CMakeFiles/LimpChimp_CS_GO.dir/includes_C.rsp
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.obj: ../kiero/minhook/src/trampoline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\trampoline.c.obj -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\minhook\src\trampoline.c
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\minhook\src\trampoline.c > CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\trampoline.c.i
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\minhook\src\trampoline.c -o CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\trampoline.c.s
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/buffer.c.obj: CMakeFiles/LimpChimp_CS_GO.dir/flags.make
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/buffer.c.obj: CMakeFiles/LimpChimp_CS_GO.dir/includes_C.rsp
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/buffer.c.obj: ../kiero/minhook/src/buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/buffer.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\buffer.c.obj -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\minhook\src\buffer.c
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/buffer.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\minhook\src\buffer.c > CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\buffer.c.i
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/buffer.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\minhook\src\buffer.c -o CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\buffer.c.s
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hook.c.obj: CMakeFiles/LimpChimp_CS_GO.dir/flags.make
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hook.c.obj: CMakeFiles/LimpChimp_CS_GO.dir/includes_C.rsp
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hook.c.obj: ../kiero/minhook/src/hook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hook.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\hook.c.obj -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\minhook\src\hook.c
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hook.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\minhook\src\hook.c > CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\hook.c.i
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hook.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\minhook\src\hook.c -o CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\hook.c.s
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hde/hde32.c.obj: CMakeFiles/LimpChimp_CS_GO.dir/flags.make
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hde/hde32.c.obj: CMakeFiles/LimpChimp_CS_GO.dir/includes_C.rsp
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hde/hde32.c.obj: ../kiero/minhook/src/hde/hde32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hde/hde32.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\hde\hde32.c.obj -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\minhook\src\hde\hde32.c
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hde/hde32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hde/hde32.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\minhook\src\hde\hde32.c > CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\hde\hde32.c.i
+
+CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hde/hde32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hde/hde32.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\kiero\minhook\src\hde\hde32.c -o CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\hde\hde32.c.s
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/flags.make
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/includes_CXX.rsp
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj: ../imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui.cpp.obj -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui.cpp
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui.cpp > CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui.cpp.i
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui.cpp -o CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui.cpp.s
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_widgets.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/flags.make
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_widgets.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/includes_CXX.rsp
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_widgets.cpp.obj: ../imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_widgets.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_widgets.cpp.obj -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui_widgets.cpp
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_widgets.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui_widgets.cpp > CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_widgets.cpp.i
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_widgets.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui_widgets.cpp -o CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_widgets.cpp.s
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/flags.make
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/includes_CXX.rsp
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.obj: ../imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_draw.cpp.obj -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui_draw.cpp
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui_draw.cpp > CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_draw.cpp.i
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui_draw.cpp -o CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_draw.cpp.s
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_win32.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/flags.make
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_win32.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/includes_CXX.rsp
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_win32.cpp.obj: ../imgui/imgui_impl_win32.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_win32.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_win32.cpp.obj -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui_impl_win32.cpp
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_win32.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_win32.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui_impl_win32.cpp > CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_win32.cpp.i
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_win32.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_win32.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui_impl_win32.cpp -o CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_win32.cpp.s
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/flags.make
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/includes_CXX.rsp
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.obj: ../imgui/imgui_impl_dx9.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_dx9.cpp.obj -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui_impl_dx9.cpp
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui_impl_dx9.cpp > CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_dx9.cpp.i
+
+CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\imgui\imgui_impl_dx9.cpp -o CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_dx9.cpp.s
+
+CMakeFiles/LimpChimp_CS_GO.dir/Overlay.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/flags.make
+CMakeFiles/LimpChimp_CS_GO.dir/Overlay.cpp.obj: CMakeFiles/LimpChimp_CS_GO.dir/includes_CXX.rsp
+CMakeFiles/LimpChimp_CS_GO.dir/Overlay.cpp.obj: ../Overlay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/Overlay.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LimpChimp_CS_GO.dir\Overlay.cpp.obj -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Overlay.cpp
+
+CMakeFiles/LimpChimp_CS_GO.dir/Overlay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/Overlay.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Overlay.cpp > CMakeFiles\LimpChimp_CS_GO.dir\Overlay.cpp.i
+
+CMakeFiles/LimpChimp_CS_GO.dir/Overlay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/Overlay.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Overlay.cpp -o CMakeFiles\LimpChimp_CS_GO.dir\Overlay.cpp.s
 
 # Object files for target LimpChimp_CS_GO
 LimpChimp_CS_GO_OBJECTS = \
-"CMakeFiles/LimpChimp_CS_GO.dir/library.cpp.obj"
+"CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.obj" \
+"CMakeFiles/LimpChimp_CS_GO.dir/kiero/kiero.cpp.obj" \
+"CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.obj" \
+"CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/buffer.c.obj" \
+"CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hook.c.obj" \
+"CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hde/hde32.c.obj" \
+"CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj" \
+"CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_widgets.cpp.obj" \
+"CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.obj" \
+"CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_win32.cpp.obj" \
+"CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.obj" \
+"CMakeFiles/LimpChimp_CS_GO.dir/Overlay.cpp.obj"
 
 # External object files for target LimpChimp_CS_GO
 LimpChimp_CS_GO_EXTERNAL_OBJECTS =
 
-libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/library.cpp.obj
+libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.obj
+libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/kiero/kiero.cpp.obj
+libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.obj
+libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/buffer.c.obj
+libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hook.c.obj
+libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hde/hde32.c.obj
+libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj
+libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_widgets.cpp.obj
+libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.obj
+libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_win32.cpp.obj
+libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.obj
+libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/Overlay.cpp.obj
 libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/build.make
 libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/linklibs.rsp
 libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/objects1.rsp
 libLimpChimp_CS_GO.dll: CMakeFiles/LimpChimp_CS_GO.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libLimpChimp_CS_GO.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared library libLimpChimp_CS_GO.dll"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LimpChimp_CS_GO.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

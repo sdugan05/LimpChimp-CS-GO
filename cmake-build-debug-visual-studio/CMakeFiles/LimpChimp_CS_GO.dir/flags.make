@@ -3,15 +3,15 @@
 
 # compile C with C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx86/x86/cl.exe
 # compile CXX with C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx86/x86/cl.exe
-C_DEFINES = -DFT2_BUILD_LIBRARY -DLimpChimp_CS_GO_EXPORTS
+C_DEFINES = -DLimpChimp_CS_GO_EXPORTS
 
-C_INCLUDES = -I\usr\local\include -IC:\Users\Saul\Projects\LX\LimpChimp-CS-GO\freetype
+C_INCLUDES = -I\usr\local\include -IC:\PROGRA~2\MI5E29~1\Include
 
 C_FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
 
-CXX_DEFINES = -DFT2_BUILD_LIBRARY -DLimpChimp_CS_GO_EXPORTS
+CXX_DEFINES = -DLimpChimp_CS_GO_EXPORTS
 
-CXX_INCLUDES = -I\usr\local\include -IC:\Users\Saul\Projects\LX\LimpChimp-CS-GO\freetype
+CXX_INCLUDES = -I\usr\local\include -IC:\PROGRA~2\MI5E29~1\Include
 
 CXX_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
 
