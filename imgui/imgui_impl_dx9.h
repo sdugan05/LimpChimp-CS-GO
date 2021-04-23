@@ -2,8 +2,8 @@
 // This needs to be used along with a Platform Binding (e.g. Win32)
 
 // Implemented features:
-//  [X] Renderer: User texture binding. Use 'LPDIRECT3DTEXTURE9' as ImTextureID. Read the FAQ about ImTextureID in imgui.cpp.
-//  [X] Renderer: Support for large meshes (64k+ vertices) with 16-bits indices.
+//  [X] Renderer: User texture binding. Use 'LPDIRECT3DTEXTURE9' as ImTextureID. Read the FAQ about ImTextureID!
+//  [X] Renderer: Support for large meshes (64k+ vertices) with 16-bit indices.
 
 // You can copy and use unmodified imgui_impl_* files in your project. See main.cpp for an example of using this.
 // If you are new to dear imgui, read examples/README.txt and read the documentation at the top of imgui.cpp.
@@ -12,18 +12,12 @@
 #pragma once
 
 struct IDirect3DDevice9;
-struct ImDrawData;
 
-bool     ImGui_ImplDX9_Init(IDirect3DDevice9* device);
-void     ImGui_ImplDX9_Shutdown();
-void     ImGui_ImplDX9_NewFrame();
-void     ImGui_ImplDX9_RenderDrawData(ImDrawData* draw_data);
-
-void     ImGui_ImplDX9_DestroyFontsTexture();
+IMGUI_IMPL_API bool     ImGui_ImplDX9_Init(IDirect3DDevice9* device);
+IMGUI_IMPL_API void     ImGui_ImplDX9_Shutdown();
+IMGUI_IMPL_API void     ImGui_ImplDX9_NewFrame();
+IMGUI_IMPL_API void     ImGui_ImplDX9_RenderDrawData(ImDrawData* draw_data);
 
 // Use if you want to reset your rendering device without losing ImGui state.
-bool     ImGui_ImplDX9_CreateDeviceObjects();
-void     ImGui_ImplDX9_InvalidateDeviceObjects();
-
-void*    ImGui_CreateTextureRGBA(int width, int height, const unsigned char* data);
-void     ImGui_DestroyTexture(void* texture);
+IMGUI_IMPL_API bool     ImGui_ImplDX9_CreateDeviceObjects();
+IMGUI_IMPL_API void     ImGui_ImplDX9_InvalidateDeviceObjects();
