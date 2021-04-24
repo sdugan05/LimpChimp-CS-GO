@@ -21,6 +21,6 @@ add_library(LimpChimp_CS_GO SHARED main.cpp
         imgui/imgui_impl_win32.cpp
         imgui/imgui_impl_dx9.cpp
 
-        csgo.hpp)
+        csgo.hpp Gui.cpp Gui.h)
 
 target_link_libraries(LimpChimp_CS_GO d3d9)

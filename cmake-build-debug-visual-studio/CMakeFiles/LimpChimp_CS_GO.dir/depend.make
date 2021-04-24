@@ -21,6 +21,11 @@ CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\trampoline.c.obj: ..\kiero\minh
 CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\trampoline.c.obj: ..\kiero\minhook\src\trampoline.c
 CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\trampoline.c.obj: ..\kiero\minhook\src\trampoline.h
 
+CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.obj: ..\Gui.cpp
+CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.obj: ..\Gui.h
+CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.obj: ..\imgui\imconfig.h
+CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.obj: ..\imgui\imgui.h
+
 CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui.cpp.obj: ..\imgui\imconfig.h
 CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui.cpp.obj: ..\imgui\imgui.cpp
 CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui.cpp.obj: ..\imgui\imgui.h
@@ -90,6 +95,7 @@ CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: "C:\Program Files (x86)\Microsoft D
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shape.h"
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9tex.h"
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9xof.h"
+CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\Gui.h
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\csgo.hpp
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\imgui\imconfig.h
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\imgui\imgui.h

@@ -86,6 +86,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>

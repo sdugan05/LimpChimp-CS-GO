@@ -126,6 +126,33 @@ LimpChimp_CS_GO\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\build
 .PHONY : LimpChimp_CS_GO\fast
 
+Gui.obj: Gui.cpp.obj
+
+.PHONY : Gui.obj
+
+# target to build an object file
+Gui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.obj
+.PHONY : Gui.cpp.obj
+
+Gui.i: Gui.cpp.i
+
+.PHONY : Gui.i
+
+# target to preprocess a source file
+Gui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.i
+.PHONY : Gui.cpp.i
+
+Gui.s: Gui.cpp.s
+
+.PHONY : Gui.s
+
+# target to generate assembly for a file
+Gui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.s
+.PHONY : Gui.cpp.s
+
 imgui\imgui.obj: imgui\imgui.cpp.obj
 
 .PHONY : imgui\imgui.obj
@@ -432,6 +459,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LimpChimp_CS_GO
+	@echo ... Gui.obj
+	@echo ... Gui.i
+	@echo ... Gui.s
 	@echo ... imgui/imgui.obj
 	@echo ... imgui/imgui.i
 	@echo ... imgui/imgui.s

@@ -21,6 +21,11 @@ CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.obj
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/hde/pstdint.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/trampoline.c
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/trampoline.h
+CMakeFiles/LimpChimp_CS_GO.dir/Gui.cpp.obj
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.cpp
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imconfig.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h
 CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imconfig.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.cpp
@@ -91,6 +96,7 @@ CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.obj
  C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9shape.h
  C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9tex.h
  C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9xof.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imconfig.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h

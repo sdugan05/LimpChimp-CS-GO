@@ -88,6 +88,12 @@ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9xof.h
 d3dx9.h
 C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9.h
 
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
+memory
+-
+imgui/imgui.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h
+
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
 cstdint
 -
@@ -149,6 +155,8 @@ includes.h
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/includes.h
 csgo.hpp
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
+Gui.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
 thread
 -
 

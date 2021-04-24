@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/LimpChimp_CS_GO.dir/Gui.cpp.obj"
   "CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj"
   "CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.obj"
   "CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.obj"
