@@ -141,32 +141,329 @@ LimpChimp_CS_GO/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/build
 .PHONY : LimpChimp_CS_GO/fast
 
-library.obj: library.cpp.obj
+Overlay.obj: Overlay.cpp.obj
 
-.PHONY : library.obj
+.PHONY : Overlay.obj
 
 # target to build an object file
-library.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/library.cpp.obj
-.PHONY : library.cpp.obj
+Overlay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/Overlay.cpp.obj
+.PHONY : Overlay.cpp.obj
 
-library.i: library.cpp.i
+Overlay.i: Overlay.cpp.i
 
-.PHONY : library.i
+.PHONY : Overlay.i
 
 # target to preprocess a source file
-library.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/library.cpp.i
-.PHONY : library.cpp.i
+Overlay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/Overlay.cpp.i
+.PHONY : Overlay.cpp.i
 
-library.s: library.cpp.s
+Overlay.s: Overlay.cpp.s
 
-.PHONY : library.s
+.PHONY : Overlay.s
 
 # target to generate assembly for a file
-library.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/library.cpp.s
-.PHONY : library.cpp.s
+Overlay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/Overlay.cpp.s
+.PHONY : Overlay.cpp.s
+
+imgui/imgui.obj: imgui/imgui.cpp.obj
+
+.PHONY : imgui/imgui.obj
+
+# target to build an object file
+imgui/imgui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj
+.PHONY : imgui/imgui.cpp.obj
+
+imgui/imgui.i: imgui/imgui.cpp.i
+
+.PHONY : imgui/imgui.i
+
+# target to preprocess a source file
+imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.i
+.PHONY : imgui/imgui.cpp.i
+
+imgui/imgui.s: imgui/imgui.cpp.s
+
+.PHONY : imgui/imgui.s
+
+# target to generate assembly for a file
+imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.s
+.PHONY : imgui/imgui.cpp.s
+
+imgui/imgui_draw.obj: imgui/imgui_draw.cpp.obj
+
+.PHONY : imgui/imgui_draw.obj
+
+# target to build an object file
+imgui/imgui_draw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.obj
+.PHONY : imgui/imgui_draw.cpp.obj
+
+imgui/imgui_draw.i: imgui/imgui_draw.cpp.i
+
+.PHONY : imgui/imgui_draw.i
+
+# target to preprocess a source file
+imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.i
+.PHONY : imgui/imgui_draw.cpp.i
+
+imgui/imgui_draw.s: imgui/imgui_draw.cpp.s
+
+.PHONY : imgui/imgui_draw.s
+
+# target to generate assembly for a file
+imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.s
+.PHONY : imgui/imgui_draw.cpp.s
+
+imgui/imgui_impl_dx9.obj: imgui/imgui_impl_dx9.cpp.obj
+
+.PHONY : imgui/imgui_impl_dx9.obj
+
+# target to build an object file
+imgui/imgui_impl_dx9.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.obj
+.PHONY : imgui/imgui_impl_dx9.cpp.obj
+
+imgui/imgui_impl_dx9.i: imgui/imgui_impl_dx9.cpp.i
+
+.PHONY : imgui/imgui_impl_dx9.i
+
+# target to preprocess a source file
+imgui/imgui_impl_dx9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.i
+.PHONY : imgui/imgui_impl_dx9.cpp.i
+
+imgui/imgui_impl_dx9.s: imgui/imgui_impl_dx9.cpp.s
+
+.PHONY : imgui/imgui_impl_dx9.s
+
+# target to generate assembly for a file
+imgui/imgui_impl_dx9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.s
+.PHONY : imgui/imgui_impl_dx9.cpp.s
+
+imgui/imgui_impl_win32.obj: imgui/imgui_impl_win32.cpp.obj
+
+.PHONY : imgui/imgui_impl_win32.obj
+
+# target to build an object file
+imgui/imgui_impl_win32.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_win32.cpp.obj
+.PHONY : imgui/imgui_impl_win32.cpp.obj
+
+imgui/imgui_impl_win32.i: imgui/imgui_impl_win32.cpp.i
+
+.PHONY : imgui/imgui_impl_win32.i
+
+# target to preprocess a source file
+imgui/imgui_impl_win32.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_win32.cpp.i
+.PHONY : imgui/imgui_impl_win32.cpp.i
+
+imgui/imgui_impl_win32.s: imgui/imgui_impl_win32.cpp.s
+
+.PHONY : imgui/imgui_impl_win32.s
+
+# target to generate assembly for a file
+imgui/imgui_impl_win32.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_win32.cpp.s
+.PHONY : imgui/imgui_impl_win32.cpp.s
+
+imgui/imgui_widgets.obj: imgui/imgui_widgets.cpp.obj
+
+.PHONY : imgui/imgui_widgets.obj
+
+# target to build an object file
+imgui/imgui_widgets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_widgets.cpp.obj
+.PHONY : imgui/imgui_widgets.cpp.obj
+
+imgui/imgui_widgets.i: imgui/imgui_widgets.cpp.i
+
+.PHONY : imgui/imgui_widgets.i
+
+# target to preprocess a source file
+imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_widgets.cpp.i
+.PHONY : imgui/imgui_widgets.cpp.i
+
+imgui/imgui_widgets.s: imgui/imgui_widgets.cpp.s
+
+.PHONY : imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_widgets.cpp.s
+.PHONY : imgui/imgui_widgets.cpp.s
+
+kiero/kiero.obj: kiero/kiero.cpp.obj
+
+.PHONY : kiero/kiero.obj
+
+# target to build an object file
+kiero/kiero.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/kiero.cpp.obj
+.PHONY : kiero/kiero.cpp.obj
+
+kiero/kiero.i: kiero/kiero.cpp.i
+
+.PHONY : kiero/kiero.i
+
+# target to preprocess a source file
+kiero/kiero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/kiero.cpp.i
+.PHONY : kiero/kiero.cpp.i
+
+kiero/kiero.s: kiero/kiero.cpp.s
+
+.PHONY : kiero/kiero.s
+
+# target to generate assembly for a file
+kiero/kiero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/kiero.cpp.s
+.PHONY : kiero/kiero.cpp.s
+
+kiero/minhook/src/buffer.obj: kiero/minhook/src/buffer.c.obj
+
+.PHONY : kiero/minhook/src/buffer.obj
+
+# target to build an object file
+kiero/minhook/src/buffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/buffer.c.obj
+.PHONY : kiero/minhook/src/buffer.c.obj
+
+kiero/minhook/src/buffer.i: kiero/minhook/src/buffer.c.i
+
+.PHONY : kiero/minhook/src/buffer.i
+
+# target to preprocess a source file
+kiero/minhook/src/buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/buffer.c.i
+.PHONY : kiero/minhook/src/buffer.c.i
+
+kiero/minhook/src/buffer.s: kiero/minhook/src/buffer.c.s
+
+.PHONY : kiero/minhook/src/buffer.s
+
+# target to generate assembly for a file
+kiero/minhook/src/buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/buffer.c.s
+.PHONY : kiero/minhook/src/buffer.c.s
+
+kiero/minhook/src/hde/hde32.obj: kiero/minhook/src/hde/hde32.c.obj
+
+.PHONY : kiero/minhook/src/hde/hde32.obj
+
+# target to build an object file
+kiero/minhook/src/hde/hde32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hde/hde32.c.obj
+.PHONY : kiero/minhook/src/hde/hde32.c.obj
+
+kiero/minhook/src/hde/hde32.i: kiero/minhook/src/hde/hde32.c.i
+
+.PHONY : kiero/minhook/src/hde/hde32.i
+
+# target to preprocess a source file
+kiero/minhook/src/hde/hde32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hde/hde32.c.i
+.PHONY : kiero/minhook/src/hde/hde32.c.i
+
+kiero/minhook/src/hde/hde32.s: kiero/minhook/src/hde/hde32.c.s
+
+.PHONY : kiero/minhook/src/hde/hde32.s
+
+# target to generate assembly for a file
+kiero/minhook/src/hde/hde32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hde/hde32.c.s
+.PHONY : kiero/minhook/src/hde/hde32.c.s
+
+kiero/minhook/src/hook.obj: kiero/minhook/src/hook.c.obj
+
+.PHONY : kiero/minhook/src/hook.obj
+
+# target to build an object file
+kiero/minhook/src/hook.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hook.c.obj
+.PHONY : kiero/minhook/src/hook.c.obj
+
+kiero/minhook/src/hook.i: kiero/minhook/src/hook.c.i
+
+.PHONY : kiero/minhook/src/hook.i
+
+# target to preprocess a source file
+kiero/minhook/src/hook.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hook.c.i
+.PHONY : kiero/minhook/src/hook.c.i
+
+kiero/minhook/src/hook.s: kiero/minhook/src/hook.c.s
+
+.PHONY : kiero/minhook/src/hook.s
+
+# target to generate assembly for a file
+kiero/minhook/src/hook.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/hook.c.s
+.PHONY : kiero/minhook/src/hook.c.s
+
+kiero/minhook/src/trampoline.obj: kiero/minhook/src/trampoline.c.obj
+
+.PHONY : kiero/minhook/src/trampoline.obj
+
+# target to build an object file
+kiero/minhook/src/trampoline.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.obj
+.PHONY : kiero/minhook/src/trampoline.c.obj
+
+kiero/minhook/src/trampoline.i: kiero/minhook/src/trampoline.c.i
+
+.PHONY : kiero/minhook/src/trampoline.i
+
+# target to preprocess a source file
+kiero/minhook/src/trampoline.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.i
+.PHONY : kiero/minhook/src/trampoline.c.i
+
+kiero/minhook/src/trampoline.s: kiero/minhook/src/trampoline.c.s
+
+.PHONY : kiero/minhook/src/trampoline.s
+
+# target to generate assembly for a file
+kiero/minhook/src/trampoline.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/kiero/minhook/src/trampoline.c.s
+.PHONY : kiero/minhook/src/trampoline.c.s
+
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -177,9 +474,42 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LimpChimp_CS_GO
-	@echo ... library.obj
-	@echo ... library.i
-	@echo ... library.s
+	@echo ... Overlay.obj
+	@echo ... Overlay.i
+	@echo ... Overlay.s
+	@echo ... imgui/imgui.obj
+	@echo ... imgui/imgui.i
+	@echo ... imgui/imgui.s
+	@echo ... imgui/imgui_draw.obj
+	@echo ... imgui/imgui_draw.i
+	@echo ... imgui/imgui_draw.s
+	@echo ... imgui/imgui_impl_dx9.obj
+	@echo ... imgui/imgui_impl_dx9.i
+	@echo ... imgui/imgui_impl_dx9.s
+	@echo ... imgui/imgui_impl_win32.obj
+	@echo ... imgui/imgui_impl_win32.i
+	@echo ... imgui/imgui_impl_win32.s
+	@echo ... imgui/imgui_widgets.obj
+	@echo ... imgui/imgui_widgets.i
+	@echo ... imgui/imgui_widgets.s
+	@echo ... kiero/kiero.obj
+	@echo ... kiero/kiero.i
+	@echo ... kiero/kiero.s
+	@echo ... kiero/minhook/src/buffer.obj
+	@echo ... kiero/minhook/src/buffer.i
+	@echo ... kiero/minhook/src/buffer.s
+	@echo ... kiero/minhook/src/hde/hde32.obj
+	@echo ... kiero/minhook/src/hde/hde32.i
+	@echo ... kiero/minhook/src/hde/hde32.s
+	@echo ... kiero/minhook/src/hook.obj
+	@echo ... kiero/minhook/src/hook.i
+	@echo ... kiero/minhook/src/hook.s
+	@echo ... kiero/minhook/src/trampoline.obj
+	@echo ... kiero/minhook/src/trampoline.i
+	@echo ... kiero/minhook/src/trampoline.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

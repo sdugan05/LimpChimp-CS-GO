@@ -34,6 +34,8 @@
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -55,6 +57,8 @@
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -80,10 +84,67 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/library.cpp">
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Overlay.cpp">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
-		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/library.h">
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Overlay.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_draw.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_dx9.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_dx9.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_win32.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_win32.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_widgets.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/kiero.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/kiero.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/include/MinHook.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/buffer.c">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/buffer.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/hde/hde32.c">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/hde/hde32.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/hook.c">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/trampoline.c">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/trampoline.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/main.cpp">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/CMakeLists.txt">
