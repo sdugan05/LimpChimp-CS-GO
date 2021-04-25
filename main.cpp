@@ -1,5 +1,7 @@
 #include "includes.h"
 
+#include <iostream>
+
 #include "csgo.hpp"
 
 #include "Gui.h"
@@ -75,20 +77,57 @@ Vec3* aimRecoilPunch;
 Vec3* viewAngles;
 Vec3 oPunch{0,0,0};
 
+uintptr_t glowObject;
+int localTeam;
+
+void openConsole() {
+    FILE *pFile = nullptr;
+    AllocConsole();
+    freopen_s(&pFile, "CONOUT$", "w", stdout);
+    SetConsoleTitle("LimpChimp CS:GO");
+}
+
+void reloadHack() {
+    localPlayer = *(DWORD*)(gameModule + dwLocalPlayer);
+    std::cout << localPlayer << std::endl;
+
+    if (localPlayer != NULL) {
+        localTeam = *(int*)(localPlayer + m_iTeamNum);
+        std::cout << localTeam << std::endl;
+
+        iShotsFired = (int*)(localPlayer + m_iShotsFired);
+        std::cout << iShotsFired << std::endl;
+
+        aimRecoilPunch = (Vec3*)(localPlayer + m_aimPunchAngle);
+        std::cout << aimRecoilPunch << std::endl;
+    }
+
+    glowObject = *(uintptr_t*)(gameModule + dwGlowObjectManager);
+    std::cout << glowObject << std::endl;
+
+
+}
 
 void initHack() {
     gameModule = (DWORD)GetModuleHandle("client.dll");
     engineModule = (DWORD)GetModuleHandle("engine.dll");
     localPlayer = *(DWORD*)(gameModule + dwLocalPlayer);
 
-    iShotsFired = (int*)(localPlayer + m_iShotsFired);
+    gui->enemyGlowColor.Value.w = 1;
+    gui->teamGlowColor.Value.w = 1;
 
-    aimRecoilPunch = (Vec3*)(localPlayer + m_aimPunchAngle);
+    if (*(DWORD*)(gameModule + dwLocalPlayer) != NULL) {
+        iShotsFired = (int*)(localPlayer + m_iShotsFired);
+
+        aimRecoilPunch = (Vec3*)(localPlayer + m_aimPunchAngle);
+    } else {
+        std::this_thread::sleep_for(std::chrono::milliseconds(500));
+        reloadHack();
+        return;
+    }
 
     viewAngles = (Vec3*)(*(uintptr_t*)(engineModule + dwClientState) + dwClientState_ViewAngles);
 }
-
-
 
 long __stdcall hkEndScene(LPDIRECT3DDEVICE9 pDevice) {
 
@@ -166,8 +205,12 @@ HWND GetProcessWindow() {
 }
 
 [[noreturn]] DWORD WINAPI triggerThread(LPVOID lp) {
+    while(localPlayer == NULL) {
+        std::this_thread::sleep_for(std::chrono::milliseconds(200));
+    }
+
     while (true) {
-        while (gui->triggerBot && GetAsyncKeyState()) {
+        while (gui->triggerBot) {
             int crosshair = *(int*)(localPlayer + m_iCrosshairId);
             int localTeam = *(int*)(localPlayer + m_iTeamNum);
 
@@ -216,6 +259,9 @@ HWND GetProcessWindow() {
 
 [[noreturn]] DWORD WINAPI rcsThread(LPVOID lp) {
     while (true) {
+        while(localPlayer == NULL || aimRecoilPunch == nullptr) {
+            std::this_thread::sleep_for(std::chrono::milliseconds(200));
+        }
         if (gui->rcs) {
             Vec3 punchAngle = *aimRecoilPunch * (gui->rcsAmount * 2);
 
@@ -230,6 +276,52 @@ HWND GetProcessWindow() {
         }
     }
 };
+
+[[noreturn]] DWORD WINAPI glowThread(LPVOID lp) {
+
+    glowObject = *(uintptr_t*)(gameModule + dwGlowObjectManager);
+
+    while (true) {
+        while(glowObject == NULL) {
+            Sleep(200);
+            std::cout << "globj == null" << std::endl;
+        }
+        if (gui->glow) {
+            // 64 possible entities
+            for (int i = 0; i < 64; ++i) {
+                uintptr_t entity = *(uintptr_t*)(gameModule + dwEntityList + i * 0x10);
+
+                if (entity != NULL) {
+                    int entityTeam = *(int*)(entity + m_iTeamNum);
+                    int glowIndex = *(int*)(entity + m_iGlowIndex);
+
+                    // If enemy
+                    if (localTeam != entityTeam) {
+                        *(float*)(glowObject + ((glowIndex * 0x38) + 0x4)) = gui->enemyGlowColor.Value.x;
+                        *(float*)(glowObject + ((glowIndex * 0x38) + 0x8)) = gui->enemyGlowColor.Value.y;
+                        *(float*)(glowObject + ((glowIndex * 0x38) + 0xC)) = gui->enemyGlowColor.Value.z;
+                        *(float*)(glowObject + ((glowIndex * 0x38) + 0x10)) = gui->enemyGlowColor.Value.w;
+                    } else {
+                        *(float*)(glowObject + ((glowIndex * 0x38) + 0x4)) = gui->teamGlowColor.Value.x;
+                        *(float*)(glowObject + ((glowIndex * 0x38) + 0x8)) = gui->teamGlowColor.Value.y;
+                        *(float*)(glowObject + ((glowIndex * 0x38) + 0xC)) = gui->teamGlowColor.Value.z;
+                        *(float*)(glowObject + ((glowIndex * 0x38) + 0x10)) = gui->teamGlowColor.Value.w;
+                    }
+                    // Set glow on
+                    if (!gui->teamGlow && localTeam == entityTeam) {
+                        std::cout << "teammate" << std::endl;
+                        continue;
+                    } else {
+                        *(bool*)(glowObject + ((glowIndex * 0x38) + 0x24)) = true;
+                        *(bool*)(glowObject + ((glowIndex * 0x38) + 0x25)) = false;
+                    }
+
+
+                }
+            }
+        }
+    }
+}
 
 [[noreturn]] DWORD WINAPI bhopThread(LPVOID lp) {
     while(localPlayer == NULL) {
@@ -246,6 +338,24 @@ HWND GetProcessWindow() {
         }
     }
 }
+
+
+[[noreturn]] DWORD WINAPI reloadThread(LPVOID lp) {
+    std::this_thread::sleep_for(std::chrono::milliseconds(100));
+
+    openConsole();
+
+    while (true) {
+        if (localPlayer == NULL || glowObject == NULL) {
+            reloadHack();
+            std::cout << "hack reloaded" << std::endl;
+        }
+        std::this_thread::sleep_for(std::chrono::milliseconds(200));
+    }
+};
+
+
+
 // Dll entrypoint
 BOOL WINAPI DllMain(HMODULE hMod, DWORD dwReason, LPVOID lpReserved) {
 	switch (dwReason) {
@@ -257,6 +367,9 @@ BOOL WINAPI DllMain(HMODULE hMod, DWORD dwReason, LPVOID lpReserved) {
 		CreateThread(nullptr, 0, bhopThread, hMod, 0, nullptr);
 		CreateThread(nullptr, 0, rcsThread, hMod, 0, nullptr);
 		CreateThread(nullptr, 0, triggerThread, hMod, 0, nullptr);
+		CreateThread(nullptr, 0, glowThread, hMod, 0, nullptr);
+		CreateThread(nullptr, 0, reloadThread, hMod, 0, nullptr);
+
 		break;
 	case DLL_PROCESS_DETACH:
 		kiero::shutdown();

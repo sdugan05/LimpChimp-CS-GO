@@ -15,6 +15,11 @@ public:
     int triggerBotCustomDelayTime= 0;
 
     float rcsAmount = 0.0f;
+
+    bool glow = false;
+    bool teamGlow = false;
+    ImColor enemyGlowColor;
+    ImColor teamGlowColor;
 };
 
 inline std::unique_ptr<Gui> gui;
