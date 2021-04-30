@@ -124,8 +124,10 @@ void initHack() {
     viewAngles = (Vec3*)(*(uintptr_t*)(engineModule + dwClientState) + dwClientState_ViewAngles);
 }
 
-void setClanTag(const char* tag)
-{
+void setClanTag(const char* tag) {
+    if (!init) {
+        return;
+    }
     auto fnClantagChanged = reinterpret_cast<int(__fastcall*)(const char*, const char*)>(engineModule + dwSetClanTag);
 
     fnClantagChanged(tag, tag);
