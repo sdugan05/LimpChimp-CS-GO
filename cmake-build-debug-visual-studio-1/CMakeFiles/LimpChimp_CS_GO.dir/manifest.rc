@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+2 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio-1/CMakeFiles/LimpChimp_CS_GO.dir/embed.manifest"

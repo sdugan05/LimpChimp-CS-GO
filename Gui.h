@@ -20,6 +20,9 @@ public:
     bool teamGlow = false;
     ImColor enemyGlowColor;
     ImColor teamGlowColor;
+
+    const char* clanTag = "";
+    bool changeClanTag = false;
 };
 
 inline std::unique_ptr<Gui> gui;

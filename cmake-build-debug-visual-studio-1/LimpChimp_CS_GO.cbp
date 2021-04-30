@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LimpChimp_CS_GO"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio-1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio-1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LimpChimp_CS_GO">
+				<Option output="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio-1/LimpChimp_CS_GO.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio-1"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 LimpChimp_CS_GO"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LimpChimp_CS_GO/fast">
+				<Option output="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio-1/LimpChimp_CS_GO.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio-1"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 LimpChimp_CS_GO/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio-1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio-1\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_draw.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_dx9.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_dx9.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_win32.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_win32.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_widgets.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/kiero.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/kiero.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/include/MinHook.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/buffer.c">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/buffer.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/hde/hde32.c">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/hde/hde32.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/hook.c">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/trampoline.c">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/src/trampoline.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/main.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

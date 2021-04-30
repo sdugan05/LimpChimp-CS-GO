@@ -57,6 +57,18 @@ void Gui::DoGui() {
         }
     }
 
+    ImGui::Spacing();
+    ImGui::Separator();
+
+    ImGui::Checkbox("Update Clantag", &changeClanTag);
+
+    ImGui::Text("Clantag");
+
+    if (ImGui::InputText("", const_cast<char *>(clanTag), 16)) {
+
+    }
+
+    ImGui::Text("%s", clanTag);
 
     ImGui::End();
 }

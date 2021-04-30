@@ -89,21 +89,16 @@ void openConsole() {
 
 void reloadHack() {
     localPlayer = *(DWORD*)(gameModule + dwLocalPlayer);
-    std::cout << localPlayer << std::endl;
 
     if (localPlayer != NULL) {
         localTeam = *(int*)(localPlayer + m_iTeamNum);
-        std::cout << localTeam << std::endl;
 
         iShotsFired = (int*)(localPlayer + m_iShotsFired);
-        std::cout << iShotsFired << std::endl;
 
         aimRecoilPunch = (Vec3*)(localPlayer + m_aimPunchAngle);
-        std::cout << aimRecoilPunch << std::endl;
     }
 
     glowObject = *(uintptr_t*)(gameModule + dwGlowObjectManager);
-    std::cout << glowObject << std::endl;
 
 
 }
@@ -121,12 +116,19 @@ void initHack() {
 
         aimRecoilPunch = (Vec3*)(localPlayer + m_aimPunchAngle);
     } else {
-        std::this_thread::sleep_for(std::chrono::milliseconds(500));
+        Sleep(1000);
         reloadHack();
         return;
     }
 
     viewAngles = (Vec3*)(*(uintptr_t*)(engineModule + dwClientState) + dwClientState_ViewAngles);
+}
+
+void setClanTag(const char* tag)
+{
+    auto fnClantagChanged = reinterpret_cast<int(__fastcall*)(const char*, const char*)>(engineModule + dwSetClanTag);
+
+    fnClantagChanged(tag, tag);
 }
 
 long __stdcall hkEndScene(LPDIRECT3DDEVICE9 pDevice) {
@@ -211,49 +213,53 @@ HWND GetProcessWindow() {
 
     while (true) {
         while (gui->triggerBot) {
-            int crosshair = *(int*)(localPlayer + m_iCrosshairId);
-            int localTeam = *(int*)(localPlayer + m_iTeamNum);
+            if (GetAsyncKeyState(VK_LMENU)) {
 
-            // At least one entity on the crosshair
-            if (crosshair != 0  && crosshair < 64) {
-                uintptr_t entity = *(uintptr_t*)(gameModule + dwEntityList + (crosshair - 1) * 0x10);
-                int entityTeam = *(int*)(entity + m_iTeamNum);
-                int entityHealth = *(int*)(entity + m_iHealth);
+                reloadHack();
+                int crosshair = *(int *) (localPlayer + m_iCrosshairId);
+                int localTeam = *(int *) (localPlayer + m_iTeamNum);
 
-                if (entityTeam != localTeam && entityHealth > 0 && entityHealth <= 100) {
-                    if (gui->triggerBotDelay) {
+                // At least one entity on the crosshair
+                if (crosshair != 0 && crosshair < 64) {
+                    uintptr_t entity = *(uintptr_t *) (gameModule + dwEntityList + (crosshair - 1) * 0x10);
+                    int entityTeam = *(int *) (entity + m_iTeamNum);
+                    int entityHealth = *(int *) (entity + m_iHealth);
 
-                        // For random triggerbot delay
-                        if (gui->triggerBotRandomness) {
-                            std::this_thread::sleep_for(std::chrono::milliseconds(rand() + 50));
+                    if (entityTeam != localTeam && entityHealth > 0 && entityHealth <= 100) {
+                        if (gui->triggerBotDelay) {
+
+                            // For random triggerbot delay
+                            if (gui->triggerBotRandomness) {
+                                std::this_thread::sleep_for(std::chrono::milliseconds(rand() + 50));
+                                // Shoot
+                                *(int *) (gameModule + dwForceAttack) = 5;
+                                std::this_thread::sleep_for(std::chrono::milliseconds(20));
+                                // Stop shooting
+                                *(int *) (gameModule + dwForceAttack) = 4;
+                            }
+                                // Custom delay
+                            else if (gui->triggerBotCustomDelay) {
+                                std::this_thread::sleep_for(std::chrono::milliseconds(gui->triggerBotCustomDelayTime));
+                                // Shoot
+                                *(int *) (gameModule + dwForceAttack) = 5;
+                                std::this_thread::sleep_for(std::chrono::milliseconds(20));
+                                // Stop shooting
+                                *(int *) (gameModule + dwForceAttack) = 4;
+                            }
+                        }
+                            // No delay
+                        else {
                             // Shoot
-                            *(int*)(gameModule + dwForceAttack) = 5;
+                            *(int *) (gameModule + dwForceAttack) = 5;
                             std::this_thread::sleep_for(std::chrono::milliseconds(20));
                             // Stop shooting
-                            *(int*)(gameModule + dwForceAttack) = 4;
+                            *(int *) (gameModule + dwForceAttack) = 4;
                         }
-                        // Custom delay
-                        else if (gui->triggerBotCustomDelay) {
-                            std::this_thread::sleep_for(std::chrono::milliseconds(gui->triggerBotCustomDelayTime));
-                            // Shoot
-                            *(int*)(gameModule + dwForceAttack) = 5;
-                            std::this_thread::sleep_for(std::chrono::milliseconds(20));
-                            // Stop shooting
-                            *(int*)(gameModule + dwForceAttack) = 4;
-                        }
-                    }
-                    // No delay
-                    else {
-                        // Shoot
-                        *(int*)(gameModule + dwForceAttack) = 5;
-                        std::this_thread::sleep_for(std::chrono::milliseconds(20));
-                        // Stop shooting
-                        *(int*)(gameModule + dwForceAttack) = 4;
                     }
                 }
             }
         }
-        std::this_thread::sleep_for(std::chrono::milliseconds(2000));
+        Sleep(2000);
     }
 };
 
@@ -263,6 +269,7 @@ HWND GetProcessWindow() {
             std::this_thread::sleep_for(std::chrono::milliseconds(200));
         }
         if (gui->rcs) {
+            reloadHack();
             Vec3 punchAngle = *aimRecoilPunch * (gui->rcsAmount * 2);
 
             if (*iShotsFired > 1 && GetAsyncKeyState(VK_LBUTTON)) {
@@ -284,9 +291,9 @@ HWND GetProcessWindow() {
     while (true) {
         while(glowObject == NULL) {
             Sleep(200);
-            std::cout << "globj == null" << std::endl;
         }
         if (gui->glow) {
+            reloadHack();
             // 64 possible entities
             for (int i = 0; i < 64; ++i) {
                 uintptr_t entity = *(uintptr_t*)(gameModule + dwEntityList + i * 0x10);
@@ -308,13 +315,9 @@ HWND GetProcessWindow() {
                         *(float*)(glowObject + ((glowIndex * 0x38) + 0x10)) = gui->teamGlowColor.Value.w;
                     }
                     // Set glow on
-                    if (!gui->teamGlow && localTeam == entityTeam) {
-                        std::cout << "teammate" << std::endl;
-                        continue;
-                    } else {
-                        *(bool*)(glowObject + ((glowIndex * 0x38) + 0x24)) = true;
-                        *(bool*)(glowObject + ((glowIndex * 0x38) + 0x25)) = false;
-                    }
+
+                    *(bool*)(glowObject + ((glowIndex * 0x38) + 0x24)) = true;
+                    *(bool*)(glowObject + ((glowIndex * 0x38) + 0x25)) = false;
 
 
                 }
@@ -340,17 +343,29 @@ HWND GetProcessWindow() {
 }
 
 
+[[noreturn]] DWORD WINAPI clanTagThread(LPVOID lp) {
+    Sleep(200);
+
+    while (true) {
+        if (gui->changeClanTag) {
+            setClanTag(gui->clanTag);
+            gui->changeClanTag = false;
+        }
+    }
+};
+
+
 [[noreturn]] DWORD WINAPI reloadThread(LPVOID lp) {
     std::this_thread::sleep_for(std::chrono::milliseconds(100));
+//    openConsole();
 
-    openConsole();
-
+    std::this_thread::sleep_for(std::chrono::milliseconds(2000));
     while (true) {
         if (localPlayer == NULL || glowObject == NULL) {
             reloadHack();
             std::cout << "hack reloaded" << std::endl;
         }
-        std::this_thread::sleep_for(std::chrono::milliseconds(200));
+        std::this_thread::sleep_for(std::chrono::milliseconds(2000));
     }
 };
 
@@ -362,13 +377,16 @@ BOOL WINAPI DllMain(HMODULE hMod, DWORD dwReason, LPVOID lpReserved) {
 	case DLL_PROCESS_ATTACH:
 		DisableThreadLibraryCalls(hMod);
 		gui = std::make_unique<Gui>();
-		CreateThread(nullptr, 0, MainThread, hMod, 0, nullptr);
-		std::this_thread::sleep_for(std::chrono::milliseconds(100));
-		CreateThread(nullptr, 0, bhopThread, hMod, 0, nullptr);
-		CreateThread(nullptr, 0, rcsThread, hMod, 0, nullptr);
-		CreateThread(nullptr, 0, triggerThread, hMod, 0, nullptr);
-		CreateThread(nullptr, 0, glowThread, hMod, 0, nullptr);
-		CreateThread(nullptr, 0, reloadThread, hMod, 0, nullptr);
+            CreateThread(nullptr, 0, MainThread, hMod, 0, nullptr);
+            Sleep(200);
+            CreateThread(nullptr, 0, reloadThread, hMod, 0, nullptr);
+            Sleep(200);
+            CreateThread(nullptr, 0, bhopThread, hMod, 0, nullptr);
+            CreateThread(nullptr, 0, rcsThread, hMod, 0, nullptr);
+            CreateThread(nullptr, 0, triggerThread, hMod, 0, nullptr);
+            CreateThread(nullptr, 0, glowThread, hMod, 0, nullptr);
+            Sleep(8000);
+            CreateThread(nullptr, 0, clanTagThread, hMod, 0, nullptr);
 
 		break;
 	case DLL_PROCESS_DETACH:
