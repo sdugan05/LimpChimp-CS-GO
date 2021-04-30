@@ -5,18 +5,20 @@ void Gui::DoGui() {
     // GUI CONTENTS
 
     // Bhop
-    ImGui::Checkbox("Gaming", &bhop);
+    ImGui::Checkbox("Bhop", &bhop);
 
+    ImGui::Spacing();
     ImGui::Separator();
 
     // Recoil control
-    ImGui::Checkbox("Epic Gaming", &rcs);
+    ImGui::Checkbox("RCS", &rcs);
 
     // Amount of recoil control
     if (rcs) {
-        ImGui::SliderFloat("Epic Gaming Amount", &rcsAmount, 0, 1);
+        ImGui::SliderFloat("RCS Amount", &rcsAmount, 0, 1);
     }
 
+    ImGui::Spacing();
     ImGui::Separator();
 
     // Triggerbot
@@ -38,6 +40,35 @@ void Gui::DoGui() {
             }
         }
     }
+
+    ImGui::Spacing();
+    ImGui::Separator();
+
+    // Glow
+
+    ImGui::Checkbox("Glow", &glow);
+
+    if (glow) {
+        ImGui::ColorPicker4("Enemy Glow Color", (float*)&enemyGlowColor);
+
+        ImGui::Checkbox("Team Glow", &teamGlow);
+        if (teamGlow) {
+            ImGui::ColorPicker4("Team Glow Color", (float*)&teamGlowColor);
+        }
+    }
+
+    ImGui::Spacing();
+    ImGui::Separator();
+
+    ImGui::Checkbox("Update Clantag", &changeClanTag);
+
+    ImGui::Text("Clantag");
+
+    if (ImGui::InputText("", const_cast<char *>(clanTag), 16)) {
+
+    }
+
+    ImGui::Text("%s", clanTag);
 
     ImGui::End();
 }
