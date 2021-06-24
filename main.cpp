@@ -128,6 +128,8 @@ void setClanTag(const char* tag) {
     if (!init) {
         return;
     }
+
+    reloadHack();
     auto fnClantagChanged = reinterpret_cast<int(__fastcall*)(const char*, const char*)>(engineModule + dwSetClanTag);
 
     fnClantagChanged(tag, tag);
