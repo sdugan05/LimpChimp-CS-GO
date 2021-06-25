@@ -94,10 +94,18 @@ memory
 imgui/imgui.h
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h
 
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.cpp
+Hacks.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.h
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.h
+includes.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/includes.h
+csgo.hpp
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
+
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
 cstdint
--
-cstddef
 -
 
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imconfig.h
@@ -141,6 +149,10 @@ imgui/imgui_impl_win32.h
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_win32.h
 imgui/imgui_impl_dx9.h
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_dx9.h
+thread
+-
+Gui.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
 
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/kiero.h
 stdint.h
@@ -148,17 +160,5 @@ stdint.h
 
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/include/MinHook.h
 windows.h
--
-
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/main.cpp
-includes.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/includes.h
-iostream
--
-csgo.hpp
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
-Gui.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
-thread
 -
 

@@ -92,6 +92,12 @@
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>

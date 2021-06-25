@@ -24,6 +24,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Gui.cpp.obj"
+  "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Hacks.cpp.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_draw.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_draw.cpp.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_dx9.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui_impl_dx9.cpp.obj"
