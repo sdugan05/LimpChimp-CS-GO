@@ -1,6 +1,9 @@
 #include <memory>
 #include "imgui/imgui.h"
 
+#ifndef gui_class
+#define gui_class
+
 class Gui {
 public:
     void DoGui();
@@ -26,3 +29,5 @@ public:
 };
 
 inline std::unique_ptr<Gui> gui;
+
+#endif

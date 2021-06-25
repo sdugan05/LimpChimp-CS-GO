@@ -42,10 +42,10 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Saul\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Saul\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Saul\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\Saul\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-v
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Saul\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\Saul\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -73,7 +73,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Saul\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\Saul\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -152,6 +152,33 @@ Gui.s: Gui.cpp.s
 Gui.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.s
 .PHONY : Gui.cpp.s
+
+Hacks.obj: Hacks.cpp.obj
+
+.PHONY : Hacks.obj
+
+# target to build an object file
+Hacks.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj
+.PHONY : Hacks.cpp.obj
+
+Hacks.i: Hacks.cpp.i
+
+.PHONY : Hacks.i
+
+# target to preprocess a source file
+Hacks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.i
+.PHONY : Hacks.cpp.i
+
+Hacks.s: Hacks.cpp.s
+
+.PHONY : Hacks.s
+
+# target to generate assembly for a file
+Hacks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.s
+.PHONY : Hacks.cpp.s
 
 imgui\imgui.obj: imgui\imgui.cpp.obj
 
@@ -462,6 +489,9 @@ help:
 	@echo ... Gui.obj
 	@echo ... Gui.i
 	@echo ... Gui.s
+	@echo ... Hacks.obj
+	@echo ... Hacks.i
+	@echo ... Hacks.s
 	@echo ... imgui/imgui.obj
 	@echo ... imgui/imgui.i
 	@echo ... imgui/imgui.s

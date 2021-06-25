@@ -26,6 +26,32 @@ CMakeFiles/LimpChimp_CS_GO.dir/Gui.cpp.obj
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imconfig.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h
+CMakeFiles/LimpChimp_CS_GO.dir/Hacks.cpp.obj
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3d9.h
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3d9caps.h
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3d9types.h
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9.h
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9anim.h
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9core.h
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9effect.h
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9math.h
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9math.inl
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9mesh.h
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9shader.h
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9shape.h
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9tex.h
+ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9xof.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.cpp
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imconfig.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_dx9.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui_impl_win32.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/includes.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/kiero.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/include/MinHook.h
 CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imconfig.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.cpp
@@ -97,6 +123,7 @@ CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.obj
  C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9tex.h
  C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9xof.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imconfig.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h
