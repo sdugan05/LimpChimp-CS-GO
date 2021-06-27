@@ -8,6 +8,10 @@
 #include "imgui/imgui_impl_dx9.h"
 #include <thread>
 #include "Gui.h"
-#define WINDOW_NAME "Dear ImGui DirectX9 Example"
+#include "Vector3.h"
+#include "Vector2.h"
+#include "BoneMatrix.h"
+#include <d3dx9core.h>
+#define WINDOW_NAME "LimpChimp"
 typedef long(__stdcall* EndScene)(LPDIRECT3DDEVICE9);
 typedef LRESULT(CALLBACK* WNDPROC)(HWND, UINT, WPARAM, LPARAM);

@@ -3,6 +3,7 @@
 
 #include "includes.h"
 #include "csgo.hpp"
+#include <string>
 
 using namespace hazedumper::signatures;
 using namespace hazedumper::netvars;
@@ -11,40 +12,10 @@ extern DWORD gameModule;
 extern DWORD engineModule;
 extern DWORD localPlayer;
 
-extern struct Vec3 {
-    float x, y, z;
-
-    Vec3 operator+(Vec3 d) {
-        return { x + d.x, y + d.y, z + d.z};
-    }
-    Vec3 operator-(Vec3 d) {
-        return { x - d.x, y - d.y, z - d.z};
-    }
-    Vec3 operator*(float d) {
-        return { x * d, y * d, z * d};
-    }
-
-    void normalize() {
-        while (y < -180) {
-            y = 360;
-        }
-        while (y > 180) {
-            y = 360;
-        }
-
-        while ( x > 89) {
-            x = 89;
-        }
-        while (x < -89) {
-            x = -89;
-        }
-    }
-};
-
 extern int* iShotsFired;
 
-extern Vec3* aimRecoilPunch;
-extern Vec3* viewAngles;
+extern Vector3* aimRecoilPunch;
+extern Vector3* viewAngles;
 
 extern uintptr_t glowObject;
 extern int localTeam;
@@ -65,5 +36,11 @@ void initHack();
 [[noreturn]] DWORD WINAPI clanTagThread(LPVOID lp);
 
 [[noreturn]] DWORD WINAPI reloadThread(LPVOID lp);
+
+[[noreturn]] DWORD WINAPI noFlashThread(LPVOID lp);
+
+[[noreturn]] DWORD WINAPI knifeChangerThread(LPVOID lp);
+
+[[noreturn]] DWORD WINAPI recoilCrosshairThread(LPVOID lp);
 
 #endif //LIMPCHIMP_CS_GO_HACKS_H

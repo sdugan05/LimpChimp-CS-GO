@@ -41,9 +41,12 @@ CMakeFiles/LimpChimp_CS_GO.dir/Hacks.cpp.obj
  C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9shape.h
  C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9tex.h
  C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9xof.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/BoneMatrix.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.cpp
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Vector2.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Vector3.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imconfig.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h
@@ -122,8 +125,11 @@ CMakeFiles/LimpChimp_CS_GO.dir/main.cpp.obj
  C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9shape.h
  C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9tex.h
  C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9xof.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/BoneMatrix.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Vector2.h
+ C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Vector3.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imconfig.h
  C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h

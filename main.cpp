@@ -30,8 +30,7 @@ bool init = false;
 // Draw gui
 bool show_main = true;
 
-int screen_x = GetSystemMetrics(SM_CXSCREEN);
-int screen_y = GetSystemMetrics(SM_CXSCREEN);
+
 
 bool first = true;
 
@@ -42,7 +41,64 @@ void openConsole() {
     SetConsoleTitle("LimpChimp CS:GO");
 }
 
+
+int screen_x = GetSystemMetrics(SM_CXSCREEN);
+int screen_y = GetSystemMetrics(SM_CYSCREEN);
+
+// Recoil Crosshair
+int crosshairX = 0;
+int crosshairY = 0;
+
+LPDIRECT3DDEVICE9 externalDevice;
+
+void drawFilledRect(int x, int y, int width, int height, D3DCOLOR color) {
+    D3DRECT rect = {x, y, x + width, y + height};
+    externalDevice->Clear(1, &rect, D3DCLEAR_TARGET, color, 0, 0);
+}
+
+void drawLine(int x1, int y1, int x2, int y2, int thickness, bool antiAlias, D3DCOLOR color) {
+    ID3DXLine* lineL;
+    D3DXCreateLine(externalDevice, &lineL);
+
+    D3DXVECTOR2 line[2];
+    line[0] = D3DXVECTOR2(x1, y1);
+    line[1] = D3DXVECTOR2(x2, y2);
+
+    lineL->SetWidth(thickness);
+    lineL->SetAntialias(antiAlias);
+    lineL->Draw(line, 2, color);
+    lineL->Release();
+}
+
+void recoilCrosshair() {
+    if (crosshairX > 0 && crosshairY > 0 && gui->recoilCrosshair) {
+        D3DCOLOR col = D3DCOLOR_ARGB( 255, (int)gui->recoilCrosshairColor.Value.x, (int)gui->recoilCrosshairColor.Value.y, (int)gui->recoilCrosshairColor.Value.z );
+        if (gui->recoilCrosshairLine) {
+            drawLine(screen_x / 2, screen_y / 2, crosshairX, crosshairY, 3, true, col);
+        } else {
+            drawFilledRect(crosshairX - 2, crosshairY - 2, 4, 4, col);
+        }
+    }
+}
+
+[[noreturn]] DWORD WINAPI recoilCrosshairThread(LPVOID lp) {
+    while(true) {
+        if (gui->recoilCrosshair) {
+            localPlayer = *(DWORD*)(gameModule + dwLocalPlayer);
+            if (localPlayer != NULL) {
+                reloadHack();
+
+                auto angle = *(Vector3*)(localPlayer + m_aimPunchAngle);
+
+                crosshairX = screen_x / 2 - (screen_x / 90 * angle.y);
+                crosshairY = screen_y / 2 + (screen_y / 90 * angle.x);
+            }
+        }
+    }
+}
+
 long __stdcall hkEndScene(LPDIRECT3DDEVICE9 pDevice) {
+    externalDevice = pDevice;
 
     if (!init) {
         initHack();
@@ -54,7 +110,17 @@ long __stdcall hkEndScene(LPDIRECT3DDEVICE9 pDevice) {
         show_main = !show_main;
     }
 
+    if (crosshairX > 0 && crosshairY > 0 && gui->recoilCrosshair) {
+        D3DCOLOR col = D3DCOLOR_ARGB( 255, (int)gui->recoilCrosshairColor.Value.x, (int)gui->recoilCrosshairColor.Value.y, (int)gui->recoilCrosshairColor.Value.z );
+        if (gui->recoilCrosshairLine) {
+            drawLine(screen_x / 2, screen_y / 2, crosshairX, crosshairY, 3, true, col);
+        } else {
+            drawFilledRect(crosshairX - 2, crosshairY - 2, 4, 4, col);
+        }
+    }
+
     ImGui::SetNextWindowSize(ImVec2(500, 350));
+    ImGui::SetNextWindowPos({0,0});
     ImGui_ImplDX9_NewFrame();
     ImGui_ImplWin32_NewFrame();
 
@@ -126,6 +192,11 @@ BOOL WINAPI DllMain(HMODULE hMod, DWORD dwReason, LPVOID lpReserved) {
             CreateThread(nullptr, 0, glowThread, hMod, 0, nullptr);
             Sleep(400);
             CreateThread(nullptr, 0, clanTagThread, hMod, 0, nullptr);
+
+            CreateThread(nullptr, 0, noFlashThread, hMod, 0, nullptr);
+            CreateThread(nullptr, 0, recoilCrosshairThread, hMod, 0, nullptr);
+
+//            CreateThread(nullptr, 0, knifeChangerThread, hMod, 0, nullptr);
 
 		break;
 	case DLL_PROCESS_DETACH:

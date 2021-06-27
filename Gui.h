@@ -26,6 +26,19 @@ public:
 
     const char* clanTag = "";
     bool changeClanTag = false;
+    bool animatedClantag = false;
+
+    bool noFlash = false;
+
+    bool bayonet = false;
+
+    bool boxEsp = false;
+    bool tracers = false;
+    bool drawBacking = false;
+
+    bool recoilCrosshair = false;
+    ImColor recoilCrosshairColor;
+    bool recoilCrosshairLine = false;
 };
 
 inline std::unique_ptr<Gui> gui;

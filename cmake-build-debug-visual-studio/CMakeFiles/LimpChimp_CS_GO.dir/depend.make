@@ -40,9 +40,12 @@ CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj: "C:\Program Files (x86)\Microsoft 
 CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shape.h"
 CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9tex.h"
 CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9xof.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj: ..\BoneMatrix.h
 CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj: ..\Gui.h
 CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj: ..\Hacks.cpp
 CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj: ..\Hacks.h
+CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj: ..\Vector2.h
+CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj: ..\Vector3.h
 CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj: ..\csgo.hpp
 CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj: ..\imgui\imconfig.h
 CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj: ..\imgui\imgui.h
@@ -121,8 +124,11 @@ CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: "C:\Program Files (x86)\Microsoft D
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shape.h"
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9tex.h"
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9xof.h"
+CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\BoneMatrix.h
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\Gui.h
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\Hacks.h
+CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\Vector2.h
+CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\Vector3.h
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\csgo.hpp
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\imgui\imconfig.h
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\imgui\imgui.h

@@ -36,6 +36,7 @@
 				<Compiler>
 					<Add directory="/usr/local/include"/>
 					<Add directory="C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include"/>
+					<Add directory="C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x86"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
@@ -60,6 +61,7 @@
 				<Compiler>
 					<Add directory="/usr/local/include"/>
 					<Add directory="C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include"/>
+					<Add directory="C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x86"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
@@ -86,6 +88,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/BoneMatrix.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.cpp">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
@@ -96,6 +101,12 @@
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Vector2.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Vector3.h">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp">

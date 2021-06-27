@@ -5,13 +5,13 @@
 # compile CXX with C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx86/x86/cl.exe
 C_DEFINES = -DLimpChimp_CS_GO_EXPORTS
 
-C_INCLUDES = -I\usr\local\include -IC:\PROGRA~2\MI5E29~1\Include
+C_INCLUDES = -I\usr\local\include -IC:\PROGRA~2\MI5E29~1\Include -IC:\PROGRA~2\MI5E29~1\Lib\x86
 
 C_FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
 
 CXX_DEFINES = -DLimpChimp_CS_GO_EXPORTS
 
-CXX_INCLUDES = -I\usr\local\include -IC:\PROGRA~2\MI5E29~1\Include
+CXX_INCLUDES = -I\usr\local\include -IC:\PROGRA~2\MI5E29~1\Include -IC:\PROGRA~2\MI5E29~1\Lib\x86
 
 CXX_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
 

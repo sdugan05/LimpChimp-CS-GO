@@ -88,21 +88,25 @@ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9xof.h
 d3dx9.h
 C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9.h
 
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/BoneMatrix.h
+
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
 memory
 -
 imgui/imgui.h
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.h
 
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.cpp
-Hacks.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.h
-
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.h
 includes.h
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/includes.h
 csgo.hpp
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
+string
+-
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Vector2.h
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Vector3.h
 
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
 cstdint
@@ -153,6 +157,14 @@ thread
 -
 Gui.h
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
+Vector3.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Vector3.h
+Vector2.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Vector2.h
+BoneMatrix.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/BoneMatrix.h
+d3dx9core.h
+-
 
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/kiero.h
 stdint.h
@@ -161,4 +173,14 @@ stdint.h
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/include/MinHook.h
 windows.h
 -
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/main.cpp
+includes.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/includes.h
+iostream
+-
+csgo.hpp
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
+Hacks.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.h
 

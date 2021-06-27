@@ -21,6 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/include"
   "C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include"
+  "C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x86"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Gui.cpp.obj"
@@ -44,6 +45,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include"
   "C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include"
+  "C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x86"
   )
 
 # Targets to which this target links.

@@ -9,6 +9,7 @@ void Gui::DoGui() {
 
     ImGui::Spacing();
     ImGui::Separator();
+    ImGui::Spacing();
 
     // Recoil control
     ImGui::Checkbox("RCS", &rcs);
@@ -20,6 +21,7 @@ void Gui::DoGui() {
 
     ImGui::Spacing();
     ImGui::Separator();
+    ImGui::Spacing();
 
     // Triggerbot
     ImGui::Checkbox("Triggerbot", &triggerBot);
@@ -43,6 +45,7 @@ void Gui::DoGui() {
 
     ImGui::Spacing();
     ImGui::Separator();
+    ImGui::Spacing();
 
     // Glow
 
@@ -59,8 +62,11 @@ void Gui::DoGui() {
 
     ImGui::Spacing();
     ImGui::Separator();
+    ImGui::Spacing();
 
     ImGui::Checkbox("Update Clantag", &changeClanTag);
+
+    ImGui::Checkbox("Animated Clantag", &animatedClantag);
 
     ImGui::Text("Clantag");
 
@@ -69,6 +75,38 @@ void Gui::DoGui() {
     }
 
     ImGui::Text("%s", clanTag);
+
+    ImGui::Spacing();
+    ImGui::Separator();
+    ImGui::Spacing();
+
+
+    ImGui::Checkbox("No Flash", &noFlash);
+
+    ImGui::Spacing();
+    ImGui::Separator();
+    ImGui::Spacing();
+
+    ImGui::Checkbox("Bayonet", &bayonet);
+
+    ImGui::Spacing();
+    ImGui::Separator();
+    ImGui::Spacing();
+
+    ImGui::Checkbox("Box ESP", &boxEsp);
+
+    ImGui::Spacing();
+    ImGui::Separator();
+    ImGui::Spacing();
+
+    ImGui::Checkbox("Recoil Crosshair", &recoilCrosshair);
+    ImGui::Checkbox("Recoil Crosshair Line", &recoilCrosshairLine);
+
+    ImGui::ColorPicker4("Recoil Crosshair Color", (float*)&recoilCrosshairColor);
+
+    ImGui::Spacing();
+    ImGui::Separator();
+    ImGui::Spacing();
 
     ImGui::End();
 }
