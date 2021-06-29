@@ -21,6 +21,6 @@ add_library(LimpChimp_CS_GO SHARED main.cpp
         imgui/imgui_impl_win32.cpp
         imgui/imgui_impl_dx9.cpp
 
-        csgo.hpp Gui.cpp Gui.h Hacks.cpp Hacks.h Vector3.h Vector2.h BoneMatrix.h)
+        csgo.hpp Gui.cpp Gui.h Hacks.cpp Hacks.h Vector3.h Vector2.h BoneMatrix.h Features/RecoilCrosshair.cpp Features/RecoilCrosshair.h Features/Triggerbot.cpp Features/Triggerbot.h Features/Glow.cpp Features/Glow.h Features/RecoilControl.cpp Features/RecoilControl.h)
 
 target_link_libraries(LimpChimp_CS_GO d3d9 "C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x86/d3dx9.lib")

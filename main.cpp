@@ -9,6 +9,10 @@ using namespace hazedumper::signatures;
 using namespace hazedumper::netvars;
 
 #include "Hacks.h"
+#include "Features/RecoilCrosshair.h"
+#include "Features/Triggerbot.h"
+#include "Features/Glow.h"
+#include "Features/RecoilControl.h"
 
 extern LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
@@ -46,8 +50,6 @@ int screen_x = GetSystemMetrics(SM_CXSCREEN);
 int screen_y = GetSystemMetrics(SM_CYSCREEN);
 
 // Recoil Crosshair
-int crosshairX = 0;
-int crosshairY = 0;
 
 LPDIRECT3DDEVICE9 externalDevice;
 
@@ -70,32 +72,7 @@ void drawLine(int x1, int y1, int x2, int y2, int thickness, bool antiAlias, D3D
     lineL->Release();
 }
 
-void recoilCrosshair() {
-    if (crosshairX > 0 && crosshairY > 0 && gui->recoilCrosshair) {
-        D3DCOLOR col = D3DCOLOR_ARGB( 255, (int)gui->recoilCrosshairColor.Value.x, (int)gui->recoilCrosshairColor.Value.y, (int)gui->recoilCrosshairColor.Value.z );
-        if (gui->recoilCrosshairLine) {
-            drawLine(screen_x / 2, screen_y / 2, crosshairX, crosshairY, 3, true, col);
-        } else {
-            drawFilledRect(crosshairX - 2, crosshairY - 2, 4, 4, col);
-        }
-    }
-}
 
-[[noreturn]] DWORD WINAPI recoilCrosshairThread(LPVOID lp) {
-    while(true) {
-        if (gui->recoilCrosshair) {
-            localPlayer = *(DWORD*)(gameModule + dwLocalPlayer);
-            if (localPlayer != NULL) {
-                reloadHack();
-
-                auto angle = *(Vector3*)(localPlayer + m_aimPunchAngle);
-
-                crosshairX = screen_x / 2 - (screen_x / 90 * angle.y);
-                crosshairY = screen_y / 2 + (screen_y / 90 * angle.x);
-            }
-        }
-    }
-}
 
 long __stdcall hkEndScene(LPDIRECT3DDEVICE9 pDevice) {
     externalDevice = pDevice;
@@ -110,12 +87,12 @@ long __stdcall hkEndScene(LPDIRECT3DDEVICE9 pDevice) {
         show_main = !show_main;
     }
 
-    if (crosshairX > 0 && crosshairY > 0 && gui->recoilCrosshair) {
+    if (recoilCrosshair->crosshairX > 0 && recoilCrosshair->crosshairY > 0 && gui->recoilCrosshair) {
         D3DCOLOR col = D3DCOLOR_ARGB( 255, (int)gui->recoilCrosshairColor.Value.x, (int)gui->recoilCrosshairColor.Value.y, (int)gui->recoilCrosshairColor.Value.z );
         if (gui->recoilCrosshairLine) {
-            drawLine(screen_x / 2, screen_y / 2, crosshairX, crosshairY, 3, true, col);
+            drawLine(screen_x / 2, screen_y / 2, recoilCrosshair->crosshairX, recoilCrosshair->crosshairY, 3, true, col);
         } else {
-            drawFilledRect(crosshairX - 2, crosshairY - 2, 4, 4, col);
+            drawFilledRect(recoilCrosshair->crosshairX - 2, recoilCrosshair->crosshairY - 2, 4, 4, col);
         }
     }
 
@@ -182,21 +159,24 @@ BOOL WINAPI DllMain(HMODULE hMod, DWORD dwReason, LPVOID lpReserved) {
 	case DLL_PROCESS_ATTACH:
 		DisableThreadLibraryCalls(hMod);
         gui = std::make_unique<Gui>();
-            CreateThread(nullptr, 0, MainThread, hMod, 0, nullptr);
-            Sleep(400);
-            CreateThread(nullptr, 0, reloadThread, hMod, 0, nullptr);
-            Sleep(200);
-            CreateThread(nullptr, 0, bhopThread, hMod, 0, nullptr);
-            CreateThread(nullptr, 0, rcsThread, hMod, 0, nullptr);
-            CreateThread(nullptr, 0, triggerThread, hMod, 0, nullptr);
-            CreateThread(nullptr, 0, glowThread, hMod, 0, nullptr);
-            Sleep(400);
-            CreateThread(nullptr, 0, clanTagThread, hMod, 0, nullptr);
+        recoilCrosshair = std::make_unique<RecoilCrosshair>();
+        triggerbot = std::make_unique<Triggerbot>();
+        glow = std::make_unique<Glow>();
+        recoilControl = std::make_unique<RecoilControl>();
 
-            CreateThread(nullptr, 0, noFlashThread, hMod, 0, nullptr);
-            CreateThread(nullptr, 0, recoilCrosshairThread, hMod, 0, nullptr);
+        CreateThread(nullptr, 0, MainThread, hMod, 0, nullptr);
+        Sleep(400);
+        CreateThread(nullptr, 0, reloadThread, hMod, 0, nullptr);
+        Sleep(200);
+        CreateThread(nullptr, 0, bhopThread, hMod, 0, nullptr);
+        Sleep(400);
+        CreateThread(nullptr, 0, clanTagThread, hMod, 0, nullptr);
+        CreateThread(nullptr, 0, noFlashThread, hMod, 0, nullptr);
 
-//            CreateThread(nullptr, 0, knifeChangerThread, hMod, 0, nullptr);
+        triggerbot->start();
+        recoilCrosshair->start();
+        glow->start();
+        recoilControl->start();
 
 		break;
 	case DLL_PROCESS_DETACH:

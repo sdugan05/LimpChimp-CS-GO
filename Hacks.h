@@ -25,12 +25,6 @@ void setClanTag(const char* tag);
 
 void initHack();
 
-[[noreturn]] extern DWORD WINAPI triggerThread(LPVOID lp);
-
-[[noreturn]] DWORD WINAPI rcsThread(LPVOID lp);
-
-[[noreturn]] DWORD WINAPI glowThread(LPVOID lp);
-
 [[noreturn]] extern DWORD WINAPI bhopThread(LPVOID lp);
 
 [[noreturn]] DWORD WINAPI clanTagThread(LPVOID lp);
@@ -40,7 +34,5 @@ void initHack();
 [[noreturn]] DWORD WINAPI noFlashThread(LPVOID lp);
 
 [[noreturn]] DWORD WINAPI knifeChangerThread(LPVOID lp);
-
-[[noreturn]] DWORD WINAPI recoilCrosshairThread(LPVOID lp);
 
 #endif //LIMPCHIMP_CS_GO_HACKS_H

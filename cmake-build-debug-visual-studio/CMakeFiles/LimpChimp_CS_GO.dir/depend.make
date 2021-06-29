@@ -21,6 +21,126 @@ CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\trampoline.c.obj: ..\kiero\minh
 CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\trampoline.c.obj: ..\kiero\minhook\src\trampoline.c
 CMakeFiles\LimpChimp_CS_GO.dir\kiero\minhook\src\trampoline.c.obj: ..\kiero\minhook\src\trampoline.h
 
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9caps.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9types.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9anim.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9core.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9effect.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9math.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9math.inl"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9mesh.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shader.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shape.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9tex.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9xof.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\BoneMatrix.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\Features\Glow.cpp
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\Features\Glow.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\Gui.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\Hacks.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\Vector2.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\Vector3.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\csgo.hpp
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\imgui\imconfig.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\imgui\imgui.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\imgui\imgui_impl_dx9.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\imgui\imgui_impl_win32.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\includes.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\kiero\kiero.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\kiero\minhook\include\MinHook.h
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9caps.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9types.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9anim.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9core.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9effect.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9math.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9math.inl"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9mesh.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shader.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shape.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9tex.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9xof.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\BoneMatrix.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\Features\RecoilControl.cpp
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\Features\RecoilControl.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\Gui.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\Hacks.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\Vector2.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\Vector3.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\csgo.hpp
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\imgui\imconfig.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\imgui\imgui.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\imgui\imgui_impl_dx9.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\imgui\imgui_impl_win32.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\includes.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\kiero\kiero.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\kiero\minhook\include\MinHook.h
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9caps.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9types.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9anim.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9core.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9effect.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9math.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9math.inl"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9mesh.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shader.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shape.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9tex.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9xof.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\BoneMatrix.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\Features\RecoilCrosshair.cpp
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\Features\RecoilCrosshair.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\Gui.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\Hacks.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\Vector2.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\Vector3.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\csgo.hpp
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\imgui\imconfig.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\imgui\imgui.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\imgui\imgui_impl_dx9.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\imgui\imgui_impl_win32.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\includes.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\kiero\kiero.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\kiero\minhook\include\MinHook.h
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9caps.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9types.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9anim.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9core.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9effect.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9math.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9math.inl"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9mesh.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shader.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shape.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9tex.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9xof.h"
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\BoneMatrix.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\Features\Triggerbot.cpp
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\Features\Triggerbot.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\Gui.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\Hacks.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\Vector2.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\Vector3.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\csgo.hpp
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\imgui\imconfig.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\imgui\imgui.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\imgui\imgui_impl_dx9.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\imgui\imgui_impl_win32.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\includes.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\kiero\kiero.h
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\kiero\minhook\include\MinHook.h
+
 CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.obj: ..\Gui.cpp
 CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.obj: ..\Gui.h
 CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.obj: ..\imgui\imconfig.h
@@ -125,6 +245,10 @@ CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: "C:\Program Files (x86)\Microsoft D
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9tex.h"
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9xof.h"
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\BoneMatrix.h
+CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\Features\Glow.h
+CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\Features\RecoilControl.h
+CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\Features\RecoilCrosshair.h
+CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\Features\Triggerbot.h
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\Gui.h
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\Hacks.h
 CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj: ..\Vector2.h

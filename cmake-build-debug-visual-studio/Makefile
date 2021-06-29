@@ -126,6 +126,114 @@ LimpChimp_CS_GO\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\build
 .PHONY : LimpChimp_CS_GO\fast
 
+Features\Glow.obj: Features\Glow.cpp.obj
+
+.PHONY : Features\Glow.obj
+
+# target to build an object file
+Features\Glow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj
+.PHONY : Features\Glow.cpp.obj
+
+Features\Glow.i: Features\Glow.cpp.i
+
+.PHONY : Features\Glow.i
+
+# target to preprocess a source file
+Features\Glow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.i
+.PHONY : Features\Glow.cpp.i
+
+Features\Glow.s: Features\Glow.cpp.s
+
+.PHONY : Features\Glow.s
+
+# target to generate assembly for a file
+Features\Glow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.s
+.PHONY : Features\Glow.cpp.s
+
+Features\RecoilControl.obj: Features\RecoilControl.cpp.obj
+
+.PHONY : Features\RecoilControl.obj
+
+# target to build an object file
+Features\RecoilControl.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj
+.PHONY : Features\RecoilControl.cpp.obj
+
+Features\RecoilControl.i: Features\RecoilControl.cpp.i
+
+.PHONY : Features\RecoilControl.i
+
+# target to preprocess a source file
+Features\RecoilControl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.i
+.PHONY : Features\RecoilControl.cpp.i
+
+Features\RecoilControl.s: Features\RecoilControl.cpp.s
+
+.PHONY : Features\RecoilControl.s
+
+# target to generate assembly for a file
+Features\RecoilControl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.s
+.PHONY : Features\RecoilControl.cpp.s
+
+Features\RecoilCrosshair.obj: Features\RecoilCrosshair.cpp.obj
+
+.PHONY : Features\RecoilCrosshair.obj
+
+# target to build an object file
+Features\RecoilCrosshair.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj
+.PHONY : Features\RecoilCrosshair.cpp.obj
+
+Features\RecoilCrosshair.i: Features\RecoilCrosshair.cpp.i
+
+.PHONY : Features\RecoilCrosshair.i
+
+# target to preprocess a source file
+Features\RecoilCrosshair.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.i
+.PHONY : Features\RecoilCrosshair.cpp.i
+
+Features\RecoilCrosshair.s: Features\RecoilCrosshair.cpp.s
+
+.PHONY : Features\RecoilCrosshair.s
+
+# target to generate assembly for a file
+Features\RecoilCrosshair.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.s
+.PHONY : Features\RecoilCrosshair.cpp.s
+
+Features\Triggerbot.obj: Features\Triggerbot.cpp.obj
+
+.PHONY : Features\Triggerbot.obj
+
+# target to build an object file
+Features\Triggerbot.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj
+.PHONY : Features\Triggerbot.cpp.obj
+
+Features\Triggerbot.i: Features\Triggerbot.cpp.i
+
+.PHONY : Features\Triggerbot.i
+
+# target to preprocess a source file
+Features\Triggerbot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.i
+.PHONY : Features\Triggerbot.cpp.i
+
+Features\Triggerbot.s: Features\Triggerbot.cpp.s
+
+.PHONY : Features\Triggerbot.s
+
+# target to generate assembly for a file
+Features\Triggerbot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LimpChimp_CS_GO.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.s
+.PHONY : Features\Triggerbot.cpp.s
+
 Gui.obj: Gui.cpp.obj
 
 .PHONY : Gui.obj
@@ -486,6 +594,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LimpChimp_CS_GO
+	@echo ... Features/Glow.obj
+	@echo ... Features/Glow.i
+	@echo ... Features/Glow.s
+	@echo ... Features/RecoilControl.obj
+	@echo ... Features/RecoilControl.i
+	@echo ... Features/RecoilControl.s
+	@echo ... Features/RecoilCrosshair.obj
+	@echo ... Features/RecoilCrosshair.i
+	@echo ... Features/RecoilCrosshair.s
+	@echo ... Features/Triggerbot.obj
+	@echo ... Features/Triggerbot.i
+	@echo ... Features/Triggerbot.s
 	@echo ... Gui.obj
 	@echo ... Gui.i
 	@echo ... Gui.s

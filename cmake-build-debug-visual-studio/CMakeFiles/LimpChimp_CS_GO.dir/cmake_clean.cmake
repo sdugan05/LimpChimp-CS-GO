@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/LimpChimp_CS_GO.dir/Features/Glow.cpp.obj"
+  "CMakeFiles/LimpChimp_CS_GO.dir/Features/RecoilControl.cpp.obj"
+  "CMakeFiles/LimpChimp_CS_GO.dir/Features/RecoilCrosshair.cpp.obj"
+  "CMakeFiles/LimpChimp_CS_GO.dir/Features/Triggerbot.cpp.obj"
   "CMakeFiles/LimpChimp_CS_GO.dir/Gui.cpp.obj"
   "CMakeFiles/LimpChimp_CS_GO.dir/Hacks.cpp.obj"
   "CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj"

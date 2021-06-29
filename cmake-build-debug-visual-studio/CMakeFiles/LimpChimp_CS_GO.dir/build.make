@@ -307,6 +307,82 @@ CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.s /c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Hacks.cpp
 <<
 
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: CMakeFiles\LimpChimp_CS_GO.dir\flags.make
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj: ..\Features\RecoilCrosshair.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/Features/RecoilCrosshair.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj /FdCMakeFiles\LimpChimp_CS_GO.dir\ /FS -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Features\RecoilCrosshair.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/Features/RecoilCrosshair.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Features\RecoilCrosshair.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/Features/RecoilCrosshair.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.s /c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Features\RecoilCrosshair.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: CMakeFiles\LimpChimp_CS_GO.dir\flags.make
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj: ..\Features\Triggerbot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/Features/Triggerbot.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj /FdCMakeFiles\LimpChimp_CS_GO.dir\ /FS -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Features\Triggerbot.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/Features/Triggerbot.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Features\Triggerbot.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/Features/Triggerbot.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.s /c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Features\Triggerbot.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: CMakeFiles\LimpChimp_CS_GO.dir\flags.make
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj: ..\Features\Glow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/Features/Glow.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj /FdCMakeFiles\LimpChimp_CS_GO.dir\ /FS -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Features\Glow.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/Features/Glow.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Features\Glow.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/Features/Glow.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.s /c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Features\Glow.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: CMakeFiles\LimpChimp_CS_GO.dir\flags.make
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj: ..\Features\RecoilControl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/LimpChimp_CS_GO.dir/Features/RecoilControl.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj /FdCMakeFiles\LimpChimp_CS_GO.dir\ /FS -c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Features\RecoilControl.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LimpChimp_CS_GO.dir/Features/RecoilControl.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Features\RecoilControl.cpp
+<<
+
+CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LimpChimp_CS_GO.dir/Features/RecoilControl.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.s /c C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\Features\RecoilControl.cpp
+<<
+
 # Object files for target LimpChimp_CS_GO
 LimpChimp_CS_GO_OBJECTS = \
 "CMakeFiles\LimpChimp_CS_GO.dir\main.cpp.obj" \
@@ -321,7 +397,11 @@ LimpChimp_CS_GO_OBJECTS = \
 "CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_win32.cpp.obj" \
 "CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_dx9.cpp.obj" \
 "CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.obj" \
-"CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj"
+"CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj" \
+"CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj" \
+"CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj" \
+"CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj" \
+"CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj"
 
 # External object files for target LimpChimp_CS_GO
 LimpChimp_CS_GO_EXTERNAL_OBJECTS =
@@ -339,10 +419,14 @@ LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_win32.cpp.o
 LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\imgui\imgui_impl_dx9.cpp.obj
 LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\Gui.cpp.obj
 LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\Hacks.cpp.obj
+LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilCrosshair.cpp.obj
+LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\Features\Triggerbot.cpp.obj
+LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\Features\Glow.cpp.obj
+LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\Features\RecoilControl.cpp.obj
 LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\build.make
 LimpChimp_CS_GO.dll: "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib"
 LimpChimp_CS_GO.dll: CMakeFiles\LimpChimp_CS_GO.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX shared library LimpChimp_CS_GO.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library LimpChimp_CS_GO.dll"
 	C:\Users\Saul\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E vs_link_dll --intdir=CMakeFiles\LimpChimp_CS_GO.dir --rc=C:\PROGRA~2\WINDOW~4\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WINDOW~4\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\LimpChimp_CS_GO.dir\objects1.rsp @<<
  /out:LimpChimp_CS_GO.dll /implib:LimpChimp_CS_GO.lib /pdb:C:\Users\Saul\Projects\LX\LimpChimp-CS-GO\cmake-build-debug-visual-studio\LimpChimp_CS_GO.pdb /dll /version:0.0 /machine:X86 /debug /INCREMENTAL   -LIBPATH:\usr\local\lib  d3d9.lib "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  
 <<

@@ -91,6 +91,30 @@
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/BoneMatrix.h">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/Glow.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/Glow.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/RecoilControl.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/RecoilControl.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/RecoilCrosshair.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/RecoilCrosshair.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/Triggerbot.cpp">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
+		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/Triggerbot.h">
+			<Option target="LimpChimp_CS_GO"/>
+		</Unit>
 		<Unit filename="C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.cpp">
 			<Option target="LimpChimp_CS_GO"/>
 		</Unit>

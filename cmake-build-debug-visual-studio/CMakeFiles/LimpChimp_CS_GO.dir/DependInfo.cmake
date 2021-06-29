@@ -24,6 +24,10 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x86"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/Glow.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Features/Glow.cpp.obj"
+  "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/RecoilControl.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Features/RecoilControl.cpp.obj"
+  "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/RecoilCrosshair.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Features/RecoilCrosshair.cpp.obj"
+  "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/Triggerbot.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Features/Triggerbot.cpp.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Gui.cpp.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/Hacks.cpp.obj"
   "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/imgui/imgui.cpp" "C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/cmake-build-debug-visual-studio/CMakeFiles/LimpChimp_CS_GO.dir/imgui/imgui.cpp.obj"

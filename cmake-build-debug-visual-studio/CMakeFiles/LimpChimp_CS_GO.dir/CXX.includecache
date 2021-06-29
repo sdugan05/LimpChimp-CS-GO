@@ -90,6 +90,16 @@ C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9.h
 
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/BoneMatrix.h
 
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/RecoilControl.cpp
+RecoilControl.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/RecoilControl.h
+
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Features/RecoilControl.h
+../Hacks.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.h
+../includes.h
+C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/includes.h
+
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Gui.h
 memory
 -
@@ -173,14 +183,4 @@ stdint.h
 C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/kiero/minhook/include/MinHook.h
 windows.h
 -
-
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/main.cpp
-includes.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/includes.h
-iostream
--
-csgo.hpp
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/csgo.hpp
-Hacks.h
-C:/Users/Saul/Projects/LX/LimpChimp-CS-GO/Hacks.h
 
